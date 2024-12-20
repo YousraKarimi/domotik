@@ -1,0 +1,64 @@
+body.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('../assets/cycling.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.login-form {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #760000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.login-form input {
+    width: calc(100% - 20px);
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    background-color: #760000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 10px;
+}
+
+.login-form button:hover {
+    background-color: #a00000;
+}
+
+.error-message {
+    color: #ff0000;
+    margin-bottom: 20px;
+}

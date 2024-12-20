@@ -1,0 +1,70 @@
+.tableinvoice {
+    width: 300%;
+    border-collapse: collapse;
+}
+
+.tableinvoice th,
+.tableinvoice td {
+    padding: 8px;
+    text-align: center;
+    min-width: 250px;
+}
+
+.tableinvoice th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.tableinvoice tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.tableinvoice tbody tr:nth-child(even) {
+    background-color: #c58577;
+}
+
+.contentinv {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: -80px;
+    margin-right: 100px;
+    margin-left: 190px;
+}
+.rectangleinv {
+    border: 2px solid #760000;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin-left:-10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-weight: bold;
+    color: #760000;
+    width: 94%;
+    margin-top: -102px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.rectangleinv i {
+    margin-left: 20px;
+}
+.back-arrow {
+    position: absolute;
+    left: 200px;
+    top: 15%;
+    transform: translateY(-40%);
+}
+
+.back-arrow a {
+    text-decoration: none;
+    color: #760000;
+    font-size: 1.2em;
+}
+
+.back-arrow a:hover {
+    text-decoration: underline;
+}
+

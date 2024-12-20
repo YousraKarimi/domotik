@@ -1,0 +1,13 @@
+stages:
+  - deploy
+
+deployment:
+  stage: deploy
+  only:
+    - dev
+  script:
+    - mvn clean package
+  artifacts:
+    name: smart-farm-backend
+    paths:
+      -

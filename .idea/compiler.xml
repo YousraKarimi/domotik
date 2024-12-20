@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="models" />
+        <module name="debt-management" />
+        <module name="customer-account-management" />
+        <module name="Security-management" />
+        <module name="bike-management" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CyclingBack" target="21" />
+      <module name="lifecyclesms" target="21" />
+      <module name="Security" target="21" />
+      <module name="systemspeciesms" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CyclingBack" options="-parameters" />
+      <module name="Cycling_B" options="-parameters" />
+      <module name="Security" options="-parameters" />
+      <module name="Security-management" options="-parameters" />
+      <module name="bike-management" options="-parameters" />
+      <module name="customer-account-management" options="-parameters" />
+      <module name="debt-management" options="-parameters" />
+      <module name="lifecyclesms" options="-parameters" />
+      <module name="models" options="-parameters" />
+      <module name="systemspeciesms" options="-parameters" />
+    </option>
+  </component>
+</project>

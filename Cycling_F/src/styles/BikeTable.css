@@ -1,0 +1,41 @@
+.bike-table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bike-data-heading {
+    text-align: center;
+}
+
+.bike-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.bike-table th, .bike-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.bike-table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #760000;
+    color: white;
+}
+
+.bike-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.bike-table tr:hover {
+    background-color: #ddd;
+}
+
+.bike-table th {
+    cursor: pointer;
+}

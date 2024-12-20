@@ -1,0 +1,13 @@
+/mvnw text eol=lf
+*.cmd text eol=crlf
+# Forcer LF pour tous les fichiers texte
+* text=auto
+
+# Ignorer la gestion pour les fichiers binaires
+*.bin binary
+*.jpg binary
+*.png binary
+
+# Fins de ligne spécifiques pour certains fichiers
+*.sh text eol=lf
+*.cmd text eol=crlf

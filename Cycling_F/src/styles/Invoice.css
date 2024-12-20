@@ -1,0 +1,144 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+.invoice {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.invoice-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.invoice-logo {
+    max-width: 150px;
+    max-height: 75px;
+
+}
+.invoice-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #6d071a;
+}
+.invoice-number {
+    font-size: 18px;
+    color: #6c757d;
+}
+.invoice-details {
+    display: flex;
+    justify-content: space-between;
+}
+.invoice-from,
+.invoice-to {
+    width: 48%;
+}
+.invoice-table th,
+.invoice-table td {
+    border: 1px solid #dee2e6;
+    padding: 12px;
+    text-align: left;
+}
+.invoice-table th {
+    background-color: #6d071a;
+    color: #ffffff;
+}
+.invoice-table td {
+    background-color: #ffffff;
+}
+.invoice-total {
+    text-align: right;
+}
+.unpaid-invoices {
+    margin-top: 20px;
+}
+.unpaid-invoices h4 {
+    color: #6d071a;
+}
+.resolution-text {
+    margin-top: 20px;
+    color: #6d071a;
+}
+.conditions-modalites {
+    margin-top: 20px;
+}
+.conditions-modalites h4 {
+    color: #6d071a;
+}
+.conditions-modalites .border {
+    border: 2px solid #6d071a   ;
+    padding: 15px;
+    border-radius: 10px;
+}
+.back-arrow {
+    margin: 20px 0;
+}
+
+.back-arrow a {
+    text-decoration: none;
+    color: #760000;
+    font-size: 1.2em;
+}
+
+.back-arrow a:hover {
+    text-decoration: underline;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagination.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.pagination.previous,
+.pagination.next {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.pagination.previous:hover,
+.pagination.next:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.pagination.page-link {
+    cursor: pointer;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pagination.page-link:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+.logout-buttonA{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #760000;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+}
+
