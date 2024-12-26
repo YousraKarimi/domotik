@@ -1,0 +1,61 @@
+services:
+  iot-service:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ./IotService/config:/mosquitto/config
+      - ./IotService/data:/mosquitto/data
+      - ./IotService/log:/mosquitto/log
+    environment:
+      - MOSQUITTO_PASSWORD_FILE=/mosquitto/config/pwfile
+  queuing-service:
+    image: rabbitmq:3.12-management-alpine
+    container_name: rabbitmq
+    volumes:
+      - ./QueuingService/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+      - ./QueuingService/definitions.json:/etc/rabbitmq/definitions.json
+    environment:
+      - RABBITMQ_DEFAULT_USER=ing3
+      - RABBITMQ_DEFAULT_PASS=paas
+      - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq.conf
+      - RABBITMQ_DEFINITIONS_FILE=/etc/rabbitmq/definitions.json
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+  mongodb:
+    image: mongo
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+  domotik-exchange:
+    build:
+      context: ./DomotikExchange
+      dockerfile: Dockerfile
+    container_name: data_exchange
+    depends_on:
+      - queuing-service
+      - iot-service
+      - mongodb
+    volumes:
+      - ./DomotikExchange:/app
+    command: [ "poetry", "run", "python", "main.py" ]
+  redis:
+    image: redis:latest
+    container_name: redis_cache
+    ports:
+      - 6379:6379
+    volumes:
+      - redis_data:/data
+      - .CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
+    command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+volumes:
+  redis_data:
+
+
+
+
+
