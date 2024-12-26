@@ -34,9 +34,10 @@ MONGODB_PORT = 27017
 
 
 credentials = pika.PlainCredentials(RABBITMQ_USER, RABBITMQ_PASS)
-connection = setup_rabbitmq(host=RABBITMQ_HOST, credentials=credentials)
-cons_channel = connection.channel()
-prod_channel = connection.channel()
+cons_connection = setup_rabbitmq(host=RABBITMQ_HOST, credentials=credentials)
+cons_channel = cons_connection.channel()
+prod_connection = setup_rabbitmq(host=RABBITMQ_HOST, credentials=credentials)
+prod_channel = prod_connection.channel()
 
 
 

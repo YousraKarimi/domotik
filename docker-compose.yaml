@@ -33,7 +33,7 @@ services:
       - "27017:27017"
   domotik-exchange:
     build:
-      context: ./DomotikExchange
+      context: ./DataExchange
       dockerfile: Dockerfile
     container_name: data_exchange
     depends_on:
@@ -41,19 +41,31 @@ services:
       - iot-service
       - mongodb
     volumes:
-      - ./DomotikExchange:/app
+      - ./DataExchange:/app
     command: [ "poetry", "run", "python", "main.py" ]
   redis:
     image: redis:latest
-    container_name: redis_cache
+    container_name: redis
     ports:
       - 6379:6379
     volumes:
       - redis_data:/data
-      - .CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
+      - ./CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
     command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
+  notification-manager:
+    build:
+      context: ./NotificationManager
+      dockerfile: Dockerfile
+    container_name: notif_manager
+    depends_on:
+      - queuing-service
+      - redis
+    volumes:
+      - ./NotificationManager:/app
+    command: [ "poetry", "run", "python", "main.py" ]
 volumes:
   redis_data:
+
 
 
 
