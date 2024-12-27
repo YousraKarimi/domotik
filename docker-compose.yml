@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  # Service PostgreSQL
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: House_Config
+    ports:
+      - "5432:5432"
+    networks:
+      - app-network
+
+  # Service pour House_Config-service
+  house_config_service:
+    build:
+      context: ./House_Config-service
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/House_Config
+      - SPRING_DATASOURCE_USERNAME=postgres
+      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_REDIS_HOST=redis  # Utilisez le nom du service Redis ici
+    depends_on:
+      - postgres
+      - redis  # Assurez-vous que Redis soit démarré avant ce service
+    ports:
+      - "8085:8085"
+    networks:
+      - app-network
+
+  # Service Redis
+  redis:
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+
+  # Service pour Notification-service
+  notification_service:
+    build:
+      context: ./Notification-service
+    ports:
+      - "8080:8080"
+    networks:
+      - app-network
+
+  # Service pour le frontend (Node.js)
+  frontend:
+    build:
+      context: ./House_front
+    ports:
+      - "3000:3000"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

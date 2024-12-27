@@ -1,0 +1,88 @@
+.device-list-container {
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.device-list-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.device-list-container h2 {
+    color: #007b8f;
+    margin-bottom: 60px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.device-list-container h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    background-color: #ff7f00;
+    border-radius: 8px;
+}
+
+
+.device-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 40px;
+}
+
+.device-table th,
+.device-table td {
+    padding: 18px;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.device-table th {
+    background-color: #007b8f;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.device-table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+.device-table tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.device-table tr:hover {
+    background-color: rgba(0, 123, 143, 0.15);
+    cursor: pointer;
+}
+
+.device-table td {
+    color: #333;
+    font-size: 15px;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+

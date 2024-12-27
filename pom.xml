@@ -8,19 +8,14 @@
 		<version>3.3.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>episen.Cycling</groupId>
-	<artifactId>Cycling_B</artifactId>
+	<groupId>episen.House</groupId>
+	<artifactId>House-App</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	<name>Cycling_B</name>
 	<description>shared parent</description>
 	<modules>
-		<module>bike-management</module>
-		<module>customer-account-management</module>
-		<module>debt-management</module>
-		<module>Security-management</module>
-		<module>models</module>
-
+		<module>Notification-service</module>
+		<module>House_Config-service</module>
 	</modules>
 	<build>
 		<plugins>
@@ -78,11 +73,5 @@
 			<groupId>com.google.code.gson</groupId>
 			<artifactId>gson</artifactId>
 		</dependency>
-        <dependency>
-            <groupId>com.github.javafaker</groupId>
-            <artifactId>javafaker</artifactId>
-            <version>1.0.2</version>
-            <scope>compile</scope>
-        </dependency>
     </dependencies>
 </project>

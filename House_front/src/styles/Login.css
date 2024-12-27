@@ -1,0 +1,52 @@
+body.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/House_Config.png') no-repeat center center;
+    background-size: contain;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.login-form {
+    width: 350px;
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-form h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-form input,
+.login-form button {
+    width: calc(100% - 20px);
+    margin-bottom: 30px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.login-form button {
+    background-color: #007b8f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.login-form button:hover {
+    background-color: #005f6b;
+}

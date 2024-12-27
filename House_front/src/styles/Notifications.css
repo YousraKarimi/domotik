@@ -1,0 +1,102 @@
+.notifications-container {
+    width: 85%;
+    margin: 50px auto;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.notifications-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15);
+}
+
+.notifications-container h1 {
+    color: #007b8f;
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+}
+
+.notifications-container h1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 4px;
+    background-color: #ff7f00;
+    border-radius: 8px;
+}
+
+.notification-list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.notification-item {
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+}
+
+.notification-item:hover {
+    background-color: rgba(0, 123, 143, 0.1);
+    transform: translateY(-5px);
+}
+
+.notification-item strong {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.notification-item p {
+    font-size: 14px;
+    color: #555;
+}
+
+.no-notifications {
+    color: #666;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.back-button {
+    display: inline-block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #007b8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #007b8f;
+}
+
+.error {
+    color: red;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}

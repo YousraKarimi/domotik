@@ -7,10 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="House_Config-service" />
         <module name="models" />
+        <module name="Notification-service" />
         <module name="debt-management" />
         <module name="customer-account-management" />
-        <module name="Security-management" />
         <module name="bike-management" />
       </profile>
     </annotationProcessing>
@@ -24,9 +25,10 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="CyclingBack" options="-parameters" />
-      <module name="Cycling_B" options="-parameters" />
+      <module name="House-App" options="-parameters" />
+      <module name="House_Config-service" options="-parameters" />
+      <module name="Notification-service" options="-parameters" />
       <module name="Security" options="-parameters" />
-      <module name="Security-management" options="-parameters" />
       <module name="bike-management" options="-parameters" />
       <module name="customer-account-management" options="-parameters" />
       <module name="debt-management" options="-parameters" />
