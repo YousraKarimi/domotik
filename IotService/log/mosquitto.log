@@ -1,0 +1,1042 @@
+1733913878: mosquitto version 2.0.20 starting
+1733913878: Config loaded from /mosquitto/config/mosquitto.conf.
+1733913878: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1733913878: Opening ipv4 listen socket on port 1883.
+1733913878: Opening ipv6 listen socket on port 1883.
+1733913878: Opening websockets listen socket on port 9001.
+1733913878: mosquitto version 2.0.20 running
+1733921638: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733945321: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733947122: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733948923: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733950724: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733952525: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733954326: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733956127: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1733957928: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734016238: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734018039: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734019840: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734021641: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734022401: mosquitto version 2.0.20 terminating
+1734022401: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734982555: mosquitto version 2.0.20 starting
+1734982555: Config loaded from /mosquitto/config/mosquitto.conf.
+1734982555: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734982555: Opening ipv4 listen socket on port 1883.
+1734982555: Opening ipv6 listen socket on port 1883.
+1734982555: Opening websockets listen socket on port 9001.
+1734982555: mosquitto version 2.0.20 running
+1734983492: mosquitto version 2.0.20 terminating
+1734983492: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734983509: mosquitto version 2.0.20 starting
+1734983509: Config loaded from /mosquitto/config/mosquitto.conf.
+1734983509: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734983509: Opening ipv4 listen socket on port 1883.
+1734983509: Opening ipv6 listen socket on port 1883.
+1734983509: Opening websockets listen socket on port 9001.
+1734983509: mosquitto version 2.0.20 running
+1734983862: mosquitto version 2.0.20 terminating
+1734983862: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734984300: mosquitto version 2.0.20 starting
+1734984300: Config loaded from /mosquitto/config/mosquitto.conf.
+1734984300: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734984300: Opening ipv4 listen socket on port 1883.
+1734984300: Opening ipv6 listen socket on port 1883.
+1734984300: Opening websockets listen socket on port 9001.
+1734984300: mosquitto version 2.0.20 running
+1734984346: mosquitto version 2.0.20 terminating
+1734984346: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734994688: mosquitto version 2.0.20 starting
+1734994688: Config loaded from /mosquitto/config/mosquitto.conf.
+1734994688: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734994688: Opening ipv4 listen socket on port 1883.
+1734994688: Opening ipv6 listen socket on port 1883.
+1734994688: Opening websockets listen socket on port 9001.
+1734994688: mosquitto version 2.0.20 running
+1734995592: mosquitto version 2.0.20 starting
+1734995592: Config loaded from /mosquitto/config/mosquitto.conf.
+1734995592: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734995592: Opening ipv4 listen socket on port 1883.
+1734995592: Opening ipv6 listen socket on port 1883.
+1734995592: Opening websockets listen socket on port 9001.
+1734995592: mosquitto version 2.0.20 running
+1734995602: mosquitto version 2.0.20 terminating
+1734995602: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734995663: mosquitto version 2.0.20 starting
+1734995663: Config loaded from /mosquitto/config/mosquitto.conf.
+1734995663: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734995663: Opening ipv4 listen socket on port 1883.
+1734995663: Opening ipv6 listen socket on port 1883.
+1734995663: Opening websockets listen socket on port 9001.
+1734995663: mosquitto version 2.0.20 running
+1734996098: mosquitto version 2.0.20 terminating
+1734996098: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734996141: mosquitto version 2.0.20 starting
+1734996141: Config loaded from /mosquitto/config/mosquitto.conf.
+1734996141: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1734996141: Opening ipv4 listen socket on port 1883.
+1734996141: Opening ipv6 listen socket on port 1883.
+1734996141: Opening websockets listen socket on port 9001.
+1734996141: mosquitto version 2.0.20 running
+1734997118: New connection from 172.21.0.6:50753 on port 1883.
+1734997118: New client connected from 172.21.0.6:50753 as auto-5A78C12C-297D-19A8-20DB-554628CF0E3F (p2, c1, k60).
+1734997118: No will message specified.
+1734997118: Sending CONNACK to auto-5A78C12C-297D-19A8-20DB-554628CF0E3F (0, 0)
+1734997119: Client auto-5A78C12C-297D-19A8-20DB-554628CF0E3F closed its connection.
+1734997174: New connection from 172.21.0.6:51971 on port 1883.
+1734997174: New client connected from 172.21.0.6:51971 as auto-2AB4E466-E2BE-C6EF-A4A8-F7E835290508 (p2, c1, k60).
+1734997174: No will message specified.
+1734997174: Sending CONNACK to auto-2AB4E466-E2BE-C6EF-A4A8-F7E835290508 (0, 0)
+1734997174: New connection from 172.21.0.6:49843 on port 1883.
+1734997174: New client connected from 172.21.0.6:49843 as auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6 (p2, c1, k60).
+1734997174: No will message specified.
+1734997174: Sending CONNACK to auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6 (0, 0)
+1734997174: Received SUBSCRIBE from auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997174: 	mqtt/config-topic (QoS 0)
+1734997174: auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6 0 mqtt/config-topic
+1734997174: Sending SUBACK to auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997234: Received PINGREQ from auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997234: Sending PINGRESP to auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997269: Client auto-2AB4E466-E2BE-C6EF-A4A8-F7E835290508 has exceeded timeout, disconnecting.
+1734997294: Received PINGREQ from auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997294: Sending PINGRESP to auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997354: Received PINGREQ from auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997354: Sending PINGRESP to auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6
+1734997405: Client auto-F89CD042-9D9F-1B00-8B7C-887A63EDCDE6 closed its connection.
+1734997407: New connection from 172.21.0.6:56561 on port 1883.
+1734997407: New client connected from 172.21.0.6:56561 as auto-3112A912-23DF-5EF9-19F3-F4FC3FED72EE (p2, c1, k60).
+1734997407: No will message specified.
+1734997407: Sending CONNACK to auto-3112A912-23DF-5EF9-19F3-F4FC3FED72EE (0, 0)
+1734997407: New connection from 172.21.0.6:59883 on port 1883.
+1734997407: New client connected from 172.21.0.6:59883 as auto-6972EA69-CDF8-6460-9CF8-9133E72CC404 (p2, c1, k60).
+1734997407: No will message specified.
+1734997407: Sending CONNACK to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404 (0, 0)
+1734997407: Received SUBSCRIBE from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997407: 	mqtt/config-topic (QoS 0)
+1734997407: auto-6972EA69-CDF8-6460-9CF8-9133E72CC404 0 mqtt/config-topic
+1734997407: Sending SUBACK to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997467: Received PINGREQ from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997467: Sending PINGRESP to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997503: Client auto-3112A912-23DF-5EF9-19F3-F4FC3FED72EE has exceeded timeout, disconnecting.
+1734997527: Received PINGREQ from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997527: Sending PINGRESP to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997587: Received PINGREQ from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997587: Sending PINGRESP to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997647: Received PINGREQ from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997647: Sending PINGRESP to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997708: Received PINGREQ from auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997708: Sending PINGRESP to auto-6972EA69-CDF8-6460-9CF8-9133E72CC404
+1734997739: Client auto-6972EA69-CDF8-6460-9CF8-9133E72CC404 closed its connection.
+1734997942: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734999497: New connection from 172.21.0.6:36023 on port 1883.
+1734999497: New client connected from 172.21.0.6:36023 as auto-3F764675-75DC-AC6F-CCE3-6C2EE61F8B1D (p2, c1, k60).
+1734999497: No will message specified.
+1734999497: Sending CONNACK to auto-3F764675-75DC-AC6F-CCE3-6C2EE61F8B1D (0, 0)
+1734999497: New connection from 172.21.0.6:34073 on port 1883.
+1734999497: New client connected from 172.21.0.6:34073 as auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45 (p2, c1, k60).
+1734999497: No will message specified.
+1734999497: Sending CONNACK to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45 (0, 0)
+1734999497: Received SUBSCRIBE from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999497: 	mqtt/config-topic (QoS 0)
+1734999497: auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45 0 mqtt/config-topic
+1734999497: Sending SUBACK to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999557: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999557: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999591: Client auto-3F764675-75DC-AC6F-CCE3-6C2EE61F8B1D has exceeded timeout, disconnecting.
+1734999617: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999617: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999677: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999677: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999737: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999737: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999743: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1734999797: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999797: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999858: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999858: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999918: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999918: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999978: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1734999978: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000038: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000038: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000098: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000098: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000158: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000158: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000218: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000218: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000278: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000278: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000338: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000338: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000398: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000398: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000458: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000458: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000519: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000519: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000579: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000579: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000639: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000639: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000699: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000699: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000759: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000759: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000819: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000819: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000879: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000879: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000939: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000939: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000999: Received PINGREQ from auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735000999: Sending PINGRESP to auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45
+1735001055: Client auto-F7A0517D-C8CE-272E-1C0E-E72075CE4B45 closed its connection.
+1735001056: New connection from 172.21.0.6:56585 on port 1883.
+1735001056: New client connected from 172.21.0.6:56585 as auto-A40EDB9F-8EFC-9D4A-D33B-34C1EF29E011 (p2, c1, k60).
+1735001056: No will message specified.
+1735001056: Sending CONNACK to auto-A40EDB9F-8EFC-9D4A-D33B-34C1EF29E011 (0, 0)
+1735001056: New connection from 172.21.0.6:49481 on port 1883.
+1735001056: New client connected from 172.21.0.6:49481 as auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B (p2, c1, k60).
+1735001056: No will message specified.
+1735001056: Sending CONNACK to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B (0, 0)
+1735001056: Received SUBSCRIBE from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001056: 	mqtt/config-topic (QoS 0)
+1735001056: auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B 0 mqtt/config-topic
+1735001056: Sending SUBACK to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001116: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001116: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001151: Client auto-A40EDB9F-8EFC-9D4A-D33B-34C1EF29E011 has exceeded timeout, disconnecting.
+1735001176: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001176: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001237: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001237: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001297: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001297: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001357: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001357: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001417: Received PINGREQ from auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001417: Sending PINGRESP to auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B
+1735001432: Client auto-D8755DE8-9DAE-DCB1-AE8C-99CB94DEB77B closed its connection.
+1735001517: New connection from 172.21.0.6:46857 on port 1883.
+1735001517: New client connected from 172.21.0.6:46857 as auto-0DAAB98F-EDC9-D44D-5BDE-3BB005ECF260 (p2, c1, k60).
+1735001517: No will message specified.
+1735001517: Sending CONNACK to auto-0DAAB98F-EDC9-D44D-5BDE-3BB005ECF260 (0, 0)
+1735001517: New connection from 172.21.0.6:44183 on port 1883.
+1735001517: New client connected from 172.21.0.6:44183 as auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB (p2, c1, k60).
+1735001517: No will message specified.
+1735001517: Sending CONNACK to auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB (0, 0)
+1735001517: Received SUBSCRIBE from auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB
+1735001517: 	mqtt/config-topic (QoS 0)
+1735001517: auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB 0 mqtt/config-topic
+1735001517: Sending SUBACK to auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB
+1735001544: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735001577: Received PINGREQ from auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB
+1735001577: Sending PINGRESP to auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB
+1735001603: Client auto-1828E0C0-22C6-9B34-2B02-E4CE0F34E6FB closed its connection.
+1735001603: Client auto-0DAAB98F-EDC9-D44D-5BDE-3BB005ECF260 closed its connection.
+1735001605: New connection from 172.21.0.6:49235 on port 1883.
+1735001605: New client connected from 172.21.0.6:49235 as auto-C6A3E6F2-C4D2-2F4F-25D9-BE62E14385FB (p2, c1, k60).
+1735001605: No will message specified.
+1735001605: Sending CONNACK to auto-C6A3E6F2-C4D2-2F4F-25D9-BE62E14385FB (0, 0)
+1735001605: New connection from 172.21.0.6:53979 on port 1883.
+1735001605: New client connected from 172.21.0.6:53979 as auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C (p2, c1, k60).
+1735001605: No will message specified.
+1735001605: Sending CONNACK to auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C (0, 0)
+1735001605: Received SUBSCRIBE from auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C
+1735001605: 	mqtt/config-topic (QoS 0)
+1735001605: auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C 0 mqtt/config-topic
+1735001605: Sending SUBACK to auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C
+1735001665: Received PINGREQ from auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C
+1735001665: Sending PINGRESP to auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C
+1735001697: Client auto-C6A3E6F2-C4D2-2F4F-25D9-BE62E14385FB has exceeded timeout, disconnecting.
+1735001722: Client auto-3A9876D4-15EC-7325-EF3C-F2BD58F8D25C closed its connection.
+1735001723: New connection from 172.21.0.6:52575 on port 1883.
+1735001723: New client connected from 172.21.0.6:52575 as auto-93549AF9-F864-2621-F0A1-A8015A1A8C59 (p2, c1, k60).
+1735001723: No will message specified.
+1735001723: Sending CONNACK to auto-93549AF9-F864-2621-F0A1-A8015A1A8C59 (0, 0)
+1735001723: New connection from 172.21.0.6:35817 on port 1883.
+1735001723: New client connected from 172.21.0.6:35817 as auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D (p2, c1, k60).
+1735001723: No will message specified.
+1735001723: Sending CONNACK to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D (0, 0)
+1735001723: Received SUBSCRIBE from auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001723: 	mqtt/config-topic (QoS 0)
+1735001723: auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D 0 mqtt/config-topic
+1735001723: Sending SUBACK to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001784: Received PINGREQ from auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001784: Sending PINGRESP to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001817: Client auto-93549AF9-F864-2621-F0A1-A8015A1A8C59 has exceeded timeout, disconnecting.
+1735001844: Received PINGREQ from auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001844: Sending PINGRESP to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001904: Received PINGREQ from auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001904: Sending PINGRESP to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001964: Received PINGREQ from auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001964: Sending PINGRESP to auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D
+1735001997: Client auto-32D58059-4B2D-9A79-1BED-8B7FE658E74D closed its connection.
+1735001999: New connection from 172.21.0.6:36117 on port 1883.
+1735001999: New client connected from 172.21.0.6:36117 as auto-D0C6DD11-8508-B1BE-69A1-9339D11FBAB8 (p2, c1, k60).
+1735001999: No will message specified.
+1735001999: Sending CONNACK to auto-D0C6DD11-8508-B1BE-69A1-9339D11FBAB8 (0, 0)
+1735002093: Client auto-D0C6DD11-8508-B1BE-69A1-9339D11FBAB8 has exceeded timeout, disconnecting.
+1735002139: New connection from 172.21.0.6:32907 on port 1883.
+1735002139: New client connected from 172.21.0.6:32907 as auto-05925404-A26A-2A03-2AD9-BA5F6E636E3E (p2, c1, k60).
+1735002139: No will message specified.
+1735002139: Sending CONNACK to auto-05925404-A26A-2A03-2AD9-BA5F6E636E3E (0, 0)
+1735002139: New connection from 172.21.0.6:52171 on port 1883.
+1735002139: New client connected from 172.21.0.6:52171 as auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0 (p2, c1, k60).
+1735002139: No will message specified.
+1735002139: Sending CONNACK to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0 (0, 0)
+1735002139: Received SUBSCRIBE from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002139: 	mqtt/config-topic (QoS 0)
+1735002139: auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0 0 mqtt/config-topic
+1735002139: Sending SUBACK to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002199: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002199: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002231: Client auto-05925404-A26A-2A03-2AD9-BA5F6E636E3E has exceeded timeout, disconnecting.
+1735002259: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002259: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002320: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002320: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002380: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002380: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002440: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002440: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002500: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002500: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002560: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002560: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002620: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002620: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002680: Received PINGREQ from auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002680: Sending PINGRESP to auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0
+1735002680: Client auto-97D0AFCA-1867-49E2-6738-DFA8139DF2B0 closed its connection.
+1735002682: New connection from 172.21.0.6:50009 on port 1883.
+1735002682: New client connected from 172.21.0.6:50009 as auto-725F2270-F0BF-03D3-1AC2-549A67CE5567 (p2, c1, k60).
+1735002682: No will message specified.
+1735002682: Sending CONNACK to auto-725F2270-F0BF-03D3-1AC2-549A67CE5567 (0, 0)
+1735002777: Client auto-725F2270-F0BF-03D3-1AC2-549A67CE5567 has exceeded timeout, disconnecting.
+1735003345: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735005146: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735006947: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735008748: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735010549: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735012350: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735014151: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735015952: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735017753: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735228336: mosquitto version 2.0.20 starting
+1735228336: Config loaded from /mosquitto/config/mosquitto.conf.
+1735228336: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1735228336: Opening ipv4 listen socket on port 1883.
+1735228336: Opening ipv6 listen socket on port 1883.
+1735228336: Opening websockets listen socket on port 9001.
+1735228336: mosquitto version 2.0.20 running
+1735228360: mosquitto version 2.0.20 terminating
+1735228360: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735228792: mosquitto version 2.0.20 starting
+1735228792: Config loaded from /mosquitto/config/mosquitto.conf.
+1735228792: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1735228792: Opening ipv4 listen socket on port 1883.
+1735228792: Opening ipv6 listen socket on port 1883.
+1735228792: Opening websockets listen socket on port 9001.
+1735228792: mosquitto version 2.0.20 running
+1735230593: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735232060: New connection from 172.21.0.6:42515 on port 1883.
+1735232060: New client connected from 172.21.0.6:42515 as auto-4F0F49E2-AF52-5443-0A7C-B902FF0110D6 (p2, c1, k60).
+1735232060: No will message specified.
+1735232060: Sending CONNACK to auto-4F0F49E2-AF52-5443-0A7C-B902FF0110D6 (0, 0)
+1735232060: Denied PUBLISH from auto-4F0F49E2-AF52-5443-0A7C-B902FF0110D6 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232060: Received DISCONNECT from auto-4F0F49E2-AF52-5443-0A7C-B902FF0110D6
+1735232060: Client auto-4F0F49E2-AF52-5443-0A7C-B902FF0110D6 disconnected.
+1735232172: New connection from 172.21.0.6:57383 on port 1883.
+1735232172: New client connected from 172.21.0.6:57383 as auto-7819ED75-149D-BA1C-25FC-F306A846DCEC (p2, c1, k60).
+1735232172: No will message specified.
+1735232172: Sending CONNACK to auto-7819ED75-149D-BA1C-25FC-F306A846DCEC (0, 0)
+1735232172: Denied PUBLISH from auto-7819ED75-149D-BA1C-25FC-F306A846DCEC (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232172: Received DISCONNECT from auto-7819ED75-149D-BA1C-25FC-F306A846DCEC
+1735232172: Client auto-7819ED75-149D-BA1C-25FC-F306A846DCEC disconnected.
+1735232394: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735232507: New connection from 172.21.0.6:38685 on port 1883.
+1735232507: New client connected from 172.21.0.6:38685 as auto-2CE5C587-901F-7F38-5BB2-5F9728ECD30D (p2, c1, k60).
+1735232507: No will message specified.
+1735232507: Sending CONNACK to auto-2CE5C587-901F-7F38-5BB2-5F9728ECD30D (0, 0)
+1735232507: Denied PUBLISH from auto-2CE5C587-901F-7F38-5BB2-5F9728ECD30D (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232507: Received DISCONNECT from auto-2CE5C587-901F-7F38-5BB2-5F9728ECD30D
+1735232507: Client auto-2CE5C587-901F-7F38-5BB2-5F9728ECD30D disconnected.
+1735232640: New connection from 172.21.0.6:41569 on port 1883.
+1735232640: New client connected from 172.21.0.6:41569 as auto-6B25845C-B438-2665-F63A-38D79F64C9EB (p2, c1, k60).
+1735232640: No will message specified.
+1735232640: Sending CONNACK to auto-6B25845C-B438-2665-F63A-38D79F64C9EB (0, 0)
+1735232640: Denied PUBLISH from auto-6B25845C-B438-2665-F63A-38D79F64C9EB (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232640: Received DISCONNECT from auto-6B25845C-B438-2665-F63A-38D79F64C9EB
+1735232640: Client auto-6B25845C-B438-2665-F63A-38D79F64C9EB disconnected.
+1735232865: New connection from 172.21.0.6:45299 on port 1883.
+1735232865: New client connected from 172.21.0.6:45299 as auto-EF13FBD3-3EF8-587A-8F44-9DC18409B5EC (p2, c1, k60).
+1735232865: No will message specified.
+1735232865: Sending CONNACK to auto-EF13FBD3-3EF8-587A-8F44-9DC18409B5EC (0, 0)
+1735232865: Denied PUBLISH from auto-EF13FBD3-3EF8-587A-8F44-9DC18409B5EC (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232865: Client auto-EF13FBD3-3EF8-587A-8F44-9DC18409B5EC closed its connection.
+1735232962: New connection from 172.21.0.6:59961 on port 1883.
+1735232962: New client connected from 172.21.0.6:59961 as auto-F29170A6-4C3E-085E-6DC8-1424F333D36B (p2, c1, k60).
+1735232962: No will message specified.
+1735232962: Sending CONNACK to auto-F29170A6-4C3E-085E-6DC8-1424F333D36B (0, 0)
+1735232962: Denied PUBLISH from auto-F29170A6-4C3E-085E-6DC8-1424F333D36B (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232962: Client auto-F29170A6-4C3E-085E-6DC8-1424F333D36B closed its connection.
+1735232968: New connection from 172.21.0.6:51887 on port 1883.
+1735232968: New client connected from 172.21.0.6:51887 as auto-14DB63E0-8E30-F7D1-8399-0035604456F5 (p2, c1, k60).
+1735232968: No will message specified.
+1735232968: Sending CONNACK to auto-14DB63E0-8E30-F7D1-8399-0035604456F5 (0, 0)
+1735232968: Denied PUBLISH from auto-14DB63E0-8E30-F7D1-8399-0035604456F5 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232968: Client auto-14DB63E0-8E30-F7D1-8399-0035604456F5 closed its connection.
+1735232978: New connection from 172.21.0.6:33415 on port 1883.
+1735232978: New client connected from 172.21.0.6:33415 as auto-CC0085D1-2A95-E89F-12C7-F367E8A8D4D3 (p2, c1, k60).
+1735232978: No will message specified.
+1735232978: Sending CONNACK to auto-CC0085D1-2A95-E89F-12C7-F367E8A8D4D3 (0, 0)
+1735232978: Denied PUBLISH from auto-CC0085D1-2A95-E89F-12C7-F367E8A8D4D3 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232978: Client auto-CC0085D1-2A95-E89F-12C7-F367E8A8D4D3 closed its connection.
+1735232992: New connection from 172.21.0.6:43025 on port 1883.
+1735232992: New client connected from 172.21.0.6:43025 as auto-184DE9A5-65DF-4238-B6B4-01CE1868D6C3 (p2, c1, k60).
+1735232992: No will message specified.
+1735232992: Sending CONNACK to auto-184DE9A5-65DF-4238-B6B4-01CE1868D6C3 (0, 0)
+1735232992: Denied PUBLISH from auto-184DE9A5-65DF-4238-B6B4-01CE1868D6C3 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232992: Client auto-184DE9A5-65DF-4238-B6B4-01CE1868D6C3 closed its connection.
+1735232995: New connection from 172.21.0.6:43407 on port 1883.
+1735232995: New client connected from 172.21.0.6:43407 as auto-BA8E648B-CC96-B238-CC5B-D43E1BFEE428 (p2, c1, k60).
+1735232995: No will message specified.
+1735232995: Sending CONNACK to auto-BA8E648B-CC96-B238-CC5B-D43E1BFEE428 (0, 0)
+1735232995: Denied PUBLISH from auto-BA8E648B-CC96-B238-CC5B-D43E1BFEE428 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735232995: Client auto-BA8E648B-CC96-B238-CC5B-D43E1BFEE428 closed its connection.
+1735233314: New connection from 172.21.0.6:41755 on port 1883.
+1735233314: New client connected from 172.21.0.6:41755 as auto-44D9D4A1-01BF-F79B-4ECE-9E9B0EF01692 (p2, c1, k60).
+1735233314: No will message specified.
+1735233314: Sending CONNACK to auto-44D9D4A1-01BF-F79B-4ECE-9E9B0EF01692 (0, 0)
+1735233314: Denied PUBLISH from auto-44D9D4A1-01BF-F79B-4ECE-9E9B0EF01692 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735233314: Client auto-44D9D4A1-01BF-F79B-4ECE-9E9B0EF01692 closed its connection.
+1735233570: New connection from 172.21.0.6:35939 on port 1883.
+1735233570: New client connected from 172.21.0.6:35939 as auto-0F3FFB37-5363-4B75-CD6F-3C8416E02BCA (p2, c1, k60).
+1735233570: No will message specified.
+1735233570: Sending CONNACK to auto-0F3FFB37-5363-4B75-CD6F-3C8416E02BCA (0, 0)
+1735233570: Denied PUBLISH from auto-0F3FFB37-5363-4B75-CD6F-3C8416E02BCA (d0, q0, r0, m0, 'mqtt/config-topic', ... (21 bytes))
+1735233570: Client auto-0F3FFB37-5363-4B75-CD6F-3C8416E02BCA closed its connection.
+1735233950: New connection from 172.21.0.6:56875 on port 1883.
+1735233950: New client connected from 172.21.0.6:56875 as auto-5B3ED1CC-ECEB-8666-A4EA-53B8800B99D3 (p2, c1, k60).
+1735233950: No will message specified.
+1735233950: Sending CONNACK to auto-5B3ED1CC-ECEB-8666-A4EA-53B8800B99D3 (0, 0)
+1735233950: Denied PUBLISH from auto-5B3ED1CC-ECEB-8666-A4EA-53B8800B99D3 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735233950: Client auto-5B3ED1CC-ECEB-8666-A4EA-53B8800B99D3 closed its connection.
+1735234195: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735234466: New connection from 172.21.0.1:34722 on port 1883.
+1735234466: New client connected from 172.21.0.1:34722 as auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD (p2, c1, k60).
+1735234466: No will message specified.
+1735234466: Sending CONNACK to auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD (0, 0)
+1735234466: Received SUBSCRIBE from auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD
+1735234466: 	mqtt/config-topic (QoS 0)
+1735234466: auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD 0 mqtt/config-topic
+1735234466: Sending SUBACK to auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD
+1735234507: Client auto-FCFA2BFF-A286-8EA3-60D1-715718D32ACD closed its connection.
+1735234514: New connection from 172.21.0.1:60706 on port 1883.
+1735234514: New client connected from 172.21.0.1:60706 as auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1 (p2, c1, k60).
+1735234514: No will message specified.
+1735234514: Sending CONNACK to auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1 (0, 0)
+1735234514: Received SUBSCRIBE from auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1
+1735234514: 	mqtt/config-topic (QoS 0)
+1735234514: auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1 0 mqtt/config-topic
+1735234514: Sending SUBACK to auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1
+1735234521: New connection from 172.21.0.6:35561 on port 1883.
+1735234521: New client connected from 172.21.0.6:35561 as auto-3047498A-C1C8-31A0-1436-62FAEA980AE7 (p2, c1, k60).
+1735234521: No will message specified.
+1735234521: Sending CONNACK to auto-3047498A-C1C8-31A0-1436-62FAEA980AE7 (0, 0)
+1735234521: Denied PUBLISH from auto-3047498A-C1C8-31A0-1436-62FAEA980AE7 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735234521: Client auto-3047498A-C1C8-31A0-1436-62FAEA980AE7 closed its connection.
+1735234535: New connection from 172.21.0.1:53562 on port 1883.
+1735234535: New client connected from 172.21.0.1:53562 as auto-F569DA27-9EE6-9E36-9B8D-02125B4A0E4E (p2, c1, k60).
+1735234535: No will message specified.
+1735234535: Sending CONNACK to auto-F569DA27-9EE6-9E36-9B8D-02125B4A0E4E (0, 0)
+1735234535: Denied PUBLISH from auto-F569DA27-9EE6-9E36-9B8D-02125B4A0E4E (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735234535: Client auto-F569DA27-9EE6-9E36-9B8D-02125B4A0E4E closed its connection.
+1735234553: New connection from 172.21.0.1:34296 on port 1883.
+1735234553: New client connected from 172.21.0.1:34296 as auto-6AEBFB9A-0394-C7E3-C987-974021894128 (p2, c1, k60).
+1735234553: No will message specified.
+1735234553: Sending CONNACK to auto-6AEBFB9A-0394-C7E3-C987-974021894128 (0, 0)
+1735234553: Denied PUBLISH from auto-6AEBFB9A-0394-C7E3-C987-974021894128 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735234553: Client auto-6AEBFB9A-0394-C7E3-C987-974021894128 closed its connection.
+1735234574: Received PINGREQ from auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1
+1735234574: Sending PINGRESP to auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1
+1735234598: Client auto-011ED8F5-4DE6-B545-D9ED-B5411A916BA1 closed its connection.
+1735234605: New connection from 172.21.0.1:37796 on port 1883.
+1735234605: New client connected from 172.21.0.1:37796 as auto-C330CD2B-2569-9D48-59A1-795432E3891E (p2, c1, k60).
+1735234605: No will message specified.
+1735234605: Sending CONNACK to auto-C330CD2B-2569-9D48-59A1-795432E3891E (0, 0)
+1735234605: Received SUBSCRIBE from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234605: 	mqtt/config-topic (QoS 0)
+1735234605: auto-C330CD2B-2569-9D48-59A1-795432E3891E 0 mqtt/config-topic
+1735234605: Sending SUBACK to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234646: New connection from 172.21.0.1:34486 on port 1883.
+1735234646: New client connected from 172.21.0.1:34486 as auto-74EFE5BE-121E-09FF-6B54-BD31FCEF4263 (p2, c1, k60).
+1735234646: No will message specified.
+1735234646: Sending CONNACK to auto-74EFE5BE-121E-09FF-6B54-BD31FCEF4263 (0, 0)
+1735234646: Denied PUBLISH from auto-74EFE5BE-121E-09FF-6B54-BD31FCEF4263 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735234646: Client auto-74EFE5BE-121E-09FF-6B54-BD31FCEF4263 closed its connection.
+1735234666: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234666: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234726: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234726: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234786: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234786: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234847: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234847: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234907: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234907: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234967: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735234967: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235028: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235028: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235088: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235088: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235148: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235148: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235209: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235209: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235269: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235269: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235330: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235330: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235390: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235390: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235451: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235451: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235511: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235511: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235571: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235571: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235632: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235632: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235692: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235692: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235753: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235753: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235813: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235813: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235874: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235874: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235934: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235934: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235995: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235995: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735235996: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735236055: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236055: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236115: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236115: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236120: New connection from 172.21.0.6:48909 on port 1883.
+1735236120: New client connected from 172.21.0.6:48909 as auto-07632C41-E2CF-7729-ADF3-5FE2A8124F8D (p2, c1, k60).
+1735236120: No will message specified.
+1735236120: Sending CONNACK to auto-07632C41-E2CF-7729-ADF3-5FE2A8124F8D (0, 0)
+1735236120: Denied PUBLISH from auto-07632C41-E2CF-7729-ADF3-5FE2A8124F8D (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735236120: Client auto-07632C41-E2CF-7729-ADF3-5FE2A8124F8D closed its connection.
+1735236176: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236176: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236236: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236236: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236297: Received PINGREQ from auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236297: Sending PINGRESP to auto-C330CD2B-2569-9D48-59A1-795432E3891E
+1735236313: mosquitto version 2.0.20 terminating
+1735236313: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735236314: mosquitto version 2.0.20 starting
+1735236314: Config loaded from /mosquitto/config/mosquitto.conf.
+1735236314: Warning: File /mosquitto/config/pwfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/pwfile`.
+1735236314: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1735236314: Opening ipv4 listen socket on port 1883.
+1735236314: Opening ipv6 listen socket on port 1883.
+1735236314: Opening websockets listen socket on port 9001.
+1735236314: mosquitto version 2.0.20 running
+1735236314: New connection from 172.21.0.1:49656 on port 1883.
+1735236314: Sending CONNACK to auto-6419279D-8529-CFAE-C9F9-13CF29A8551F (0, 5)
+1735236314: Client auto-6419279D-8529-CFAE-C9F9-13CF29A8551F disconnected, not authorised.
+1735236316: New connection from 172.21.0.1:49662 on port 1883.
+1735236316: Sending CONNACK to auto-EAA67AEA-F291-9E62-1D8F-BF940FB96B2E (0, 5)
+1735236316: Client auto-EAA67AEA-F291-9E62-1D8F-BF940FB96B2E disconnected, not authorised.
+1735236320: New connection from 172.21.0.1:49664 on port 1883.
+1735236320: Sending CONNACK to auto-BDA3E732-9B6C-0857-2387-2125BDFAEF3C (0, 5)
+1735236320: Client auto-BDA3E732-9B6C-0857-2387-2125BDFAEF3C disconnected, not authorised.
+1735236328: New connection from 172.21.0.1:46522 on port 1883.
+1735236328: Sending CONNACK to auto-93D75280-1BA5-9500-545F-C2761E9D82CB (0, 5)
+1735236328: Client auto-93D75280-1BA5-9500-545F-C2761E9D82CB disconnected, not authorised.
+1735236344: New connection from 172.21.0.1:49360 on port 1883.
+1735236344: Sending CONNACK to auto-F296FF91-E3E9-F01D-A6AA-9A8DA3E2EA16 (0, 5)
+1735236344: Client auto-F296FF91-E3E9-F01D-A6AA-9A8DA3E2EA16 disconnected, not authorised.
+1735236376: New connection from 172.21.0.1:36838 on port 1883.
+1735236376: Sending CONNACK to auto-7B36D698-31D7-1C5F-3CC1-6F7FB2B4B263 (0, 5)
+1735236376: Client auto-7B36D698-31D7-1C5F-3CC1-6F7FB2B4B263 disconnected, not authorised.
+1735236440: New connection from 172.21.0.1:51408 on port 1883.
+1735236440: Sending CONNACK to auto-1A9C70EB-B7CD-9E0B-80A0-A4C22BDCD9FC (0, 5)
+1735236440: Client auto-1A9C70EB-B7CD-9E0B-80A0-A4C22BDCD9FC disconnected, not authorised.
+1735236556: New connection from 172.21.0.1:51170 on port 1883.
+1735236556: Sending CONNACK to auto-0F25EB6A-5882-8CD4-B73C-BD7CFF9B7F07 (0, 5)
+1735236556: Client auto-0F25EB6A-5882-8CD4-B73C-BD7CFF9B7F07 disconnected, not authorised.
+1735236557: New connection from 172.21.0.1:51176 on port 1883.
+1735236557: Sending CONNACK to auto-67BA8CDF-3CC0-50DD-C869-61B1FA4A9B5B (0, 5)
+1735236557: Client auto-67BA8CDF-3CC0-50DD-C869-61B1FA4A9B5B disconnected, not authorised.
+1735236559: New connection from 172.21.0.1:51180 on port 1883.
+1735236559: Sending CONNACK to auto-B329A193-F8B5-5EC0-ED8C-7B43430CF32C (0, 5)
+1735236559: Client auto-B329A193-F8B5-5EC0-ED8C-7B43430CF32C disconnected, not authorised.
+1735236563: New connection from 172.21.0.1:51186 on port 1883.
+1735236563: Sending CONNACK to auto-7D9D0F1D-03F3-0FEC-6E98-69C3B7F88F06 (0, 5)
+1735236563: Client auto-7D9D0F1D-03F3-0FEC-6E98-69C3B7F88F06 disconnected, not authorised.
+1735236571: New connection from 172.21.0.1:36528 on port 1883.
+1735236571: Sending CONNACK to auto-A7B70499-4B1A-2359-60A9-45879EAE81F1 (0, 5)
+1735236571: Client auto-A7B70499-4B1A-2359-60A9-45879EAE81F1 disconnected, not authorised.
+1735236587: New connection from 172.21.0.1:47688 on port 1883.
+1735236587: Sending CONNACK to auto-1010795A-BAEC-DA53-2B33-1D4D022187E0 (0, 5)
+1735236587: Client auto-1010795A-BAEC-DA53-2B33-1D4D022187E0 disconnected, not authorised.
+1735236619: New connection from 172.21.0.1:36514 on port 1883.
+1735236619: Sending CONNACK to auto-39167A90-25D2-6C18-CDD4-043B5456A16C (0, 5)
+1735236619: Client auto-39167A90-25D2-6C18-CDD4-043B5456A16C disconnected, not authorised.
+1735236683: New connection from 172.21.0.1:50078 on port 1883.
+1735236683: Sending CONNACK to auto-3142D0F4-E005-8162-84A6-9A6388E7CB0A (0, 5)
+1735236683: Client auto-3142D0F4-E005-8162-84A6-9A6388E7CB0A disconnected, not authorised.
+1735236702: New connection from 172.21.0.1:47770 on port 1883.
+1735236702: Sending CONNACK to auto-28CEF180-05F1-F295-ACA6-1C49062FF69F (0, 5)
+1735236702: Client auto-28CEF180-05F1-F295-ACA6-1C49062FF69F disconnected, not authorised.
+1735236703: New connection from 172.21.0.1:47776 on port 1883.
+1735236703: Sending CONNACK to auto-22965FA9-0886-E8F0-752D-038F097F31C4 (0, 5)
+1735236703: Client auto-22965FA9-0886-E8F0-752D-038F097F31C4 disconnected, not authorised.
+1735236705: New connection from 172.21.0.1:37872 on port 1883.
+1735236705: Sending CONNACK to auto-373F2450-F40D-D6DC-3311-388204CA7952 (0, 5)
+1735236705: Client auto-373F2450-F40D-D6DC-3311-388204CA7952 disconnected, not authorised.
+1735236709: New connection from 172.21.0.1:37876 on port 1883.
+1735236709: Sending CONNACK to auto-359FDAD4-D809-A921-1822-946B9D781609 (0, 5)
+1735236709: Client auto-359FDAD4-D809-A921-1822-946B9D781609 disconnected, not authorised.
+1735236747: New connection from 172.21.0.6:37483 on port 1883.
+1735236747: Sending CONNACK to auto-52156F90-E06A-8800-CF10-FADD9627F4DE (0, 5)
+1735236747: Client auto-52156F90-E06A-8800-CF10-FADD9627F4DE disconnected, not authorised.
+1735236766: New connection from 172.21.0.1:40826 on port 1883.
+1735236766: Sending CONNACK to auto-AB43C51F-83C3-320B-BAA6-AEA97737ED6E (0, 5)
+1735236766: Client auto-AB43C51F-83C3-320B-BAA6-AEA97737ED6E disconnected, not authorised.
+1735236767: New connection from 172.21.0.1:40838 on port 1883.
+1735236767: Sending CONNACK to auto-59AFF949-B9E6-1E62-E3B8-2317C6DC678A (0, 5)
+1735236767: Client auto-59AFF949-B9E6-1E62-E3B8-2317C6DC678A disconnected, not authorised.
+1735236769: New connection from 172.21.0.1:40846 on port 1883.
+1735236769: Sending CONNACK to auto-8AA9D575-A1A4-A704-309C-0C1EA2BA6C71 (0, 5)
+1735236769: Client auto-8AA9D575-A1A4-A704-309C-0C1EA2BA6C71 disconnected, not authorised.
+1735236773: New connection from 172.21.0.1:40848 on port 1883.
+1735236773: Sending CONNACK to auto-F66F61E8-CFA0-C393-2D53-93F54FEE3BD0 (0, 5)
+1735236773: Client auto-F66F61E8-CFA0-C393-2D53-93F54FEE3BD0 disconnected, not authorised.
+1735236803: New connection from 172.21.0.1:35976 on port 1883.
+1735236803: Sending CONNACK to auto-E6227434-EAF6-85C3-3D75-5A518BCE258F (0, 5)
+1735236803: Client auto-E6227434-EAF6-85C3-3D75-5A518BCE258F disconnected, not authorised.
+1735236890: New connection from 172.21.0.1:36668 on port 1883.
+1735236890: Sending CONNACK to auto-678F3DA8-B065-DAA9-7083-1C640BB94A7E (0, 5)
+1735236890: Client auto-678F3DA8-B065-DAA9-7083-1C640BB94A7E disconnected, not authorised.
+1735236891: New connection from 172.21.0.1:36682 on port 1883.
+1735236891: Sending CONNACK to auto-F2EB4520-2025-3112-E0E6-F6E98EDDC013 (0, 5)
+1735236891: Client auto-F2EB4520-2025-3112-E0E6-F6E98EDDC013 disconnected, not authorised.
+1735236893: New connection from 172.21.0.1:36686 on port 1883.
+1735236893: Sending CONNACK to auto-275F2C5F-2AA2-3F8B-FF07-76AA31379F71 (0, 5)
+1735236893: Client auto-275F2C5F-2AA2-3F8B-FF07-76AA31379F71 disconnected, not authorised.
+1735237325: mosquitto version 2.0.20 terminating
+1735237325: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735237326: mosquitto version 2.0.20 starting
+1735237326: Config loaded from /mosquitto/config/mosquitto.conf.
+1735237326: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1735237326: Opening ipv4 listen socket on port 1883.
+1735237326: Opening ipv6 listen socket on port 1883.
+1735237326: Opening websockets listen socket on port 9001.
+1735237326: mosquitto version 2.0.20 running
+1735237339: New connection from 172.21.0.1:38976 on port 1883.
+1735237339: New client connected from 172.21.0.1:38976 as auto-CA841570-AE46-127D-93E5-81F555B95B46 (p2, c1, k60, u'domotik').
+1735237339: No will message specified.
+1735237339: Sending CONNACK to auto-CA841570-AE46-127D-93E5-81F555B95B46 (0, 0)
+1735237339: Received SUBSCRIBE from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237339: 	mqtt/config-topic (QoS 0)
+1735237339: auto-CA841570-AE46-127D-93E5-81F555B95B46 0 mqtt/config-topic
+1735237339: Sending SUBACK to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237351: New connection from 172.21.0.1:60010 on port 1883.
+1735237351: New client connected from 172.21.0.1:60010 as auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 (p2, c1, k60, u'exchange').
+1735237351: No will message specified.
+1735237351: Sending CONNACK to auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 (0, 0)
+1735237351: Received PUBLISH from auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237351: Sending PUBLISH to auto-CA841570-AE46-127D-93E5-81F555B95B46 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237356: Received PUBLISH from auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237356: Sending PUBLISH to auto-CA841570-AE46-127D-93E5-81F555B95B46 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237361: Received PUBLISH from auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237361: Sending PUBLISH to auto-CA841570-AE46-127D-93E5-81F555B95B46 (d0, q0, r0, m0, 'mqtt/config-topic', ... (12 bytes))
+1735237363: Received DISCONNECT from auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277
+1735237363: Client auto-52EF86EF-817E-18BE-E0C5-9A1611EA1277 disconnected.
+1735237400: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237400: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237460: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237460: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237521: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237521: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237582: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237582: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237642: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237642: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237702: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237702: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237763: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237763: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237824: Received PINGREQ from auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237824: Sending PINGRESP to auto-CA841570-AE46-127D-93E5-81F555B95B46
+1735237865: mosquitto version 2.0.20 terminating
+1735237865: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735237866: mosquitto version 2.0.20 starting
+1735237866: Config loaded from /mosquitto/config/mosquitto.conf.
+1735237866: Warning: File /mosquitto/config/aclfile has world readable permissions. Future versions will refuse to load this file.
+To fix this, use `chmod 0700 /mosquitto/config/aclfile`.
+1735237866: Opening ipv4 listen socket on port 1883.
+1735237866: Opening ipv6 listen socket on port 1883.
+1735237866: Opening websockets listen socket on port 9001.
+1735237866: mosquitto version 2.0.20 running
+1735237866: New connection from 172.21.0.1:52068 on port 1883.
+1735237866: New client connected from 172.21.0.1:52068 as auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C (p2, c1, k60, u'domotik').
+1735237866: No will message specified.
+1735237866: Sending CONNACK to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C (0, 0)
+1735237866: Received SUBSCRIBE from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735237866: 	mqtt/config-topic (QoS 0)
+1735237866: auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C 0 mqtt/config-topic
+1735237866: Sending SUBACK to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735237876: New connection from 172.21.0.6:57539 on port 1883.
+1735237876: Sending CONNACK to auto-00E73111-146B-926D-BF6A-D26883594AE8 (0, 5)
+1735237876: Client auto-00E73111-146B-926D-BF6A-D26883594AE8 disconnected, not authorised.
+1735237888: New connection from 172.21.0.6:49821 on port 1883.
+1735237888: New client connected from 172.21.0.6:49821 as auto-61E3AA3B-D6F2-EF5D-4888-1FAA5E975328 (p2, c1, k60, u'exchange').
+1735237888: No will message specified.
+1735237888: Sending CONNACK to auto-61E3AA3B-D6F2-EF5D-4888-1FAA5E975328 (0, 0)
+1735237888: Received PUBLISH from auto-61E3AA3B-D6F2-EF5D-4888-1FAA5E975328 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735237888: Sending PUBLISH to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735237888: Client auto-61E3AA3B-D6F2-EF5D-4888-1FAA5E975328 closed its connection.
+1735237927: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735237927: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735237987: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735237987: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238048: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238048: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238109: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238109: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238169: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238169: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238230: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238230: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238290: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238290: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238351: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238351: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238412: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238412: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238472: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238472: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238533: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238533: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238593: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238593: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238654: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238654: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238714: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238714: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238774: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238774: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238835: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238835: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238895: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238895: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238956: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735238956: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239016: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239016: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239077: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239077: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239137: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239137: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239198: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239198: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239259: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239259: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239319: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239319: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239380: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239380: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239440: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239440: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239442: Received PINGREQ from auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735239442: Sending PINGRESP to auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C
+1735240223: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735240223: Client auto-73C2D4A9-FF1B-B21E-B9C6-2D2A421E351C has exceeded timeout, disconnecting.
+1735240224: New connection from 172.21.0.1:59794 on port 1883.
+1735240224: New client connected from 172.21.0.1:59794 as auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082 (p2, c1, k60, u'domotik').
+1735240224: No will message specified.
+1735240224: Sending CONNACK to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082 (0, 0)
+1735240224: Received SUBSCRIBE from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240224: 	mqtt/config-topic (QoS 0)
+1735240224: auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082 0 mqtt/config-topic
+1735240224: Sending SUBACK to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240284: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240284: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240345: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240345: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240405: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240405: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240466: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240466: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240526: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240526: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240587: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240587: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240647: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240647: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240708: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240708: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240768: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240768: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240829: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240829: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240889: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240889: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240950: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735240950: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241010: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241010: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241071: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241071: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241131: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241131: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241192: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241192: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241252: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241252: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241313: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241313: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241373: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241373: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241434: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241434: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241494: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241494: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241555: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241555: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241615: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241615: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241676: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241676: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241736: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241736: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241797: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241797: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241857: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241857: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241918: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241918: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241978: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735241978: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242024: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735242039: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242039: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242099: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242099: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242160: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242160: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242220: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242220: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242281: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242281: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242341: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242341: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242402: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242402: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242462: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242462: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242523: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242523: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242583: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242583: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242644: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242644: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242704: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242704: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242764: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242764: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242825: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242825: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242885: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242885: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242946: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735242946: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243006: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243006: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243067: Received PINGREQ from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243067: Sending PINGRESP to auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243100: Received DISCONNECT from auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082
+1735243100: Client auto-2D2EA717-C939-0DD3-2356-3E8B2DB2A082 disconnected.
+1735243115: New connection from 172.21.0.1:60970 on port 1883.
+1735243115: New client connected from 172.21.0.1:60970 as auto-FED711A8-6DC0-5D59-54EE-269BD55BC589 (p2, c1, k60, u'domotik').
+1735243115: No will message specified.
+1735243115: Sending CONNACK to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589 (0, 0)
+1735243115: Received SUBSCRIBE from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243115: 	mqtt/log-topic (QoS 0)
+1735243115: auto-FED711A8-6DC0-5D59-54EE-269BD55BC589 0 mqtt/log-topic
+1735243115: Sending SUBACK to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243176: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243176: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243236: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243236: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243297: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243297: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243341: New connection from 172.21.0.6:53093 on port 1883.
+1735243341: New client connected from 172.21.0.6:53093 as auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE (p2, c1, k60, u'domotik').
+1735243341: No will message specified.
+1735243341: Sending CONNACK to auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE (0, 0)
+1735243341: Received SUBSCRIBE from auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE
+1735243341: 	mqtt/log-topic (QoS 0)
+1735243341: auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE 0 mqtt/log-topic
+1735243341: Sending SUBACK to auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE
+1735243357: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243357: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243384: Client auto-4DA21AA1-D783-8775-CA17-2DEDBD2E66CE closed its connection.
+1735243386: New connection from 172.21.0.6:54347 on port 1883.
+1735243386: New client connected from 172.21.0.6:54347 as auto-674D03CB-6B8B-58BA-C36C-E94440560441 (p2, c1, k60, u'domotik').
+1735243386: No will message specified.
+1735243386: Sending CONNACK to auto-674D03CB-6B8B-58BA-C36C-E94440560441 (0, 0)
+1735243386: Received SUBSCRIBE from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243386: 	mqtt/log-topic (QoS 0)
+1735243386: auto-674D03CB-6B8B-58BA-C36C-E94440560441 0 mqtt/log-topic
+1735243386: Sending SUBACK to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243418: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243418: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243446: Received PINGREQ from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243446: Sending PINGRESP to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243478: Received PINGREQ from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243478: Sending PINGRESP to auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243480: Received DISCONNECT from auto-FED711A8-6DC0-5D59-54EE-269BD55BC589
+1735243480: Client auto-FED711A8-6DC0-5D59-54EE-269BD55BC589 disconnected.
+1735243485: New connection from 172.21.0.1:60948 on port 1883.
+1735243485: New client connected from 172.21.0.1:60948 as auto-9593F569-B065-7A38-0DD0-86FAB037CD53 (p2, c1, k60, u'domotik').
+1735243485: No will message specified.
+1735243485: Sending CONNACK to auto-9593F569-B065-7A38-0DD0-86FAB037CD53 (0, 0)
+1735243485: Received SUBSCRIBE from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243485: 	mqtt/config-topic (QoS 0)
+1735243485: auto-9593F569-B065-7A38-0DD0-86FAB037CD53 0 mqtt/config-topic
+1735243485: Sending SUBACK to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243503: New connection from 172.21.0.1:53576 on port 1883.
+1735243503: New client connected from 172.21.0.1:53576 as auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (p2, c1, k60, u'exchange').
+1735243503: No will message specified.
+1735243503: Sending CONNACK to auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (0, 0)
+1735243503: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243507: Received PINGREQ from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243507: Sending PINGRESP to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243508: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243513: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243518: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243519: New connection from 172.21.0.6:53413 on port 1883.
+1735243519: New client connected from 172.21.0.6:53413 as auto-92884664-D937-24F5-2B7B-FC8364F5D4D6 (p2, c1, k60, u'exchange').
+1735243519: No will message specified.
+1735243519: Sending CONNACK to auto-92884664-D937-24F5-2B7B-FC8364F5D4D6 (0, 0)
+1735243519: Received PUBLISH from auto-92884664-D937-24F5-2B7B-FC8364F5D4D6 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735243519: Sending PUBLISH to auto-9593F569-B065-7A38-0DD0-86FAB037CD53 (d0, q0, r0, m0, 'mqtt/config-topic', ... (36 bytes))
+1735243519: Client auto-92884664-D937-24F5-2B7B-FC8364F5D4D6 closed its connection.
+1735243523: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243528: Denied PUBLISH from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243529: Received DISCONNECT from auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4
+1735243529: Client auto-1EDA80E3-25F0-3521-463B-0F1CD6C021A4 disconnected.
+1735243545: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243545: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243567: Received PINGREQ from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243567: Sending PINGRESP to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243606: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243606: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243627: Received PINGREQ from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243627: Sending PINGRESP to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243666: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243666: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243687: Received PINGREQ from auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243687: Sending PINGRESP to auto-674D03CB-6B8B-58BA-C36C-E94440560441
+1735243690: Client auto-674D03CB-6B8B-58BA-C36C-E94440560441 closed its connection.
+1735243692: New connection from 172.21.0.6:42201 on port 1883.
+1735243692: New client connected from 172.21.0.6:42201 as auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD (p2, c1, k60, u'domotik').
+1735243692: No will message specified.
+1735243692: Sending CONNACK to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD (0, 0)
+1735243692: Received SUBSCRIBE from auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243692: 	mqtt/log-topic (QoS 0)
+1735243692: auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD 0 mqtt/log-topic
+1735243692: Sending SUBACK to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243727: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243727: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243752: Received PINGREQ from auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243752: Sending PINGRESP to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243787: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243787: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243812: Received PINGREQ from auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243812: Sending PINGRESP to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243825: Saving in-memory database to /mosquitto/data//mosquitto.db.
+1735243848: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243848: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243872: Received PINGREQ from auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243872: Sending PINGRESP to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243908: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243908: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243932: Received PINGREQ from auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243932: Sending PINGRESP to auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD
+1735243939: Client auto-6DDE8B06-17E1-9C9E-8A64-B6B0E58B4AAD closed its connection.
+1735243941: New connection from 172.21.0.6:40617 on port 1883.
+1735243941: New client connected from 172.21.0.6:40617 as auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (p2, c1, k60, u'exchange').
+1735243941: No will message specified.
+1735243941: Sending CONNACK to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (0, 0)
+1735243941: Received SUBSCRIBE from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735243941: 	mqtt/log-topic (QoS 0)
+1735243941: auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E 0 mqtt/log-topic
+1735243941: Sending SUBACK to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735243969: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243969: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735243973: New connection from 172.21.0.1:58006 on port 1883.
+1735243973: New client connected from 172.21.0.1:58006 as auto-23273961-A31F-777C-2179-D9FF84B8BD13 (p2, c1, k60, u'domotik').
+1735243973: No will message specified.
+1735243973: Sending CONNACK to auto-23273961-A31F-777C-2179-D9FF84B8BD13 (0, 0)
+1735243973: Received PUBLISH from auto-23273961-A31F-777C-2179-D9FF84B8BD13 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243973: Sending PUBLISH to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243978: Received PUBLISH from auto-23273961-A31F-777C-2179-D9FF84B8BD13 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243978: Sending PUBLISH to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243983: Received PUBLISH from auto-23273961-A31F-777C-2179-D9FF84B8BD13 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243983: Sending PUBLISH to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243988: Received PUBLISH from auto-23273961-A31F-777C-2179-D9FF84B8BD13 (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243988: Sending PUBLISH to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E (d0, q0, r0, m0, 'mqtt/log-topic', ... (12 bytes))
+1735243990: Received DISCONNECT from auto-23273961-A31F-777C-2179-D9FF84B8BD13
+1735243990: Client auto-23273961-A31F-777C-2179-D9FF84B8BD13 disconnected.
+1735244001: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244001: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244029: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244029: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244061: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244061: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244090: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244090: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244121: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244121: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244150: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244150: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244181: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244181: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244211: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244211: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244241: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244241: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244271: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244271: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244301: Received PINGREQ from auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244301: Sending PINGRESP to auto-5D0F0E4A-B132-6DDD-851C-33E4259CEF6E
+1735244332: Received PINGREQ from auto-9593F569-B065-7A38-0DD0-86FAB037CD53
+1735244332: Sending PINGRESP to auto-9593F569-B065-7A38-0DD0-86FAB037CD53

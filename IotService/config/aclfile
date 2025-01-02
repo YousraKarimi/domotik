@@ -1,0 +1,7 @@
+user domotik
+topic write mqtt/log-topic/#
+topic read mqtt/config-topic/#
+
+user exchange
+topic read mqtt/log-topic/#
+topic write mqtt/config-topic/#
