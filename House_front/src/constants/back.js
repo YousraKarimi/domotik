@@ -1,7 +1,6 @@
 
-// export const LOCAL_HOST = 'http://172.31.249.212:992';
-export const LOCAL_HOST = 'http://localhost:8085'
-export const LOCAL_HOST_NOTIF = 'http://localhost:8080'
+export const LOCAL_HOST = 'http://localhost'
+export const LOCAL_HOST_NOTIF = 'http://localhost'
 
 
 export const GET_DEVICES_LOGIN =(login) => `${LOCAL_HOST}/api/devices/myDevices/${login}`;
@@ -43,7 +42,7 @@ export const loginUser = async (login, password) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-export const GET_NOTIFICATIONS = (userId) => `${LOCAL_HOST_NOTIF}/notifications/${userId}`;
+export const GET_NOTIFICATIONS = (userId) => `${LOCAL_HOST_NOTIF}/notifications/all/${userId}`;
 
 export const fetchNotifications = async (userId) => {
     try {

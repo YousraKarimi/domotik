@@ -4,6 +4,7 @@ services:
   # Service PostgreSQL
   postgres:
     image: postgres:13
+    container_name: postgres-container
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
@@ -13,48 +14,80 @@ services:
     networks:
       - app-network
 
-  # Service pour House_Config-service
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - house_config_service
+      - notification_service
+      - frontend
+    networks:
+      - app-network
+
+
+  # Service Redis
+  redis:
+    image: redis:alpine
+    container_name: redis-container
+    ports:
+      - "6379:6379"
+    networks:
+      - app-network
+    command: ["redis-server", "--appendonly", "no"]
+
+  # Service pour House_Config-service (Backend Spring Boot)
   house_config_service:
     build:
       context: ./House_Config-service
+    container_name: house-config-service
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/House_Config
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=admin
-      - SPRING_REDIS_HOST=redis  # Utilisez le nom du service Redis ici
+      - SPRING_REDIS_HOST=redis
+      - SPRING_REDIS_PORT=6379
     depends_on:
       - postgres
-      - redis  # Assurez-vous que Redis soit démarré avant ce service
+      - redis
     ports:
       - "8085:8085"
     networks:
       - app-network
 
-  # Service Redis
-  redis:
-    image: redis:alpine
-    ports:
-      - "6379:6379"
-    networks:
-      - app-network
-
-  # Service pour Notification-service
+  # Service pour Notification-service (Backend Spring Boot)
   notification_service:
     build:
       context: ./Notification-service
+    container_name: notification-service
+    environment:
+      - SPRING_DATA_REDIS_HOST=redis
+      - SPRING_DATA_REDIS_PORT=6379
+      - SPRING_APPLICATION_NAME=notification-service
+    depends_on:
+      - redis
     ports:
-      - "8080:8080"
+      - "8083:8083"
     networks:
       - app-network
 
-  # Service pour le frontend (Node.js)
+  # Service pour le frontend (React ou Vue.js)
   frontend:
     build:
       context: ./House_front
+    container_name: frontend-container
     ports:
       - "3000:3000"
+    depends_on:
+      - house_config_service
+      - notification_service
     networks:
       - app-network
+    stdin_open: true
+    tty: true
 
 networks:
   app-network:
