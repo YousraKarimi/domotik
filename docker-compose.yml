@@ -1,7 +1,6 @@
 version: '3.8'
 
 services:
-  # Service PostgreSQL
   postgres:
     image: postgres:13
     container_name: postgres-container
@@ -28,8 +27,6 @@ services:
     networks:
       - app-network
 
-
-  # Service Redis
   redis:
     image: redis:alpine
     container_name: redis-container
@@ -39,7 +36,6 @@ services:
       - app-network
     command: ["redis-server", "--appendonly", "no"]
 
-  # Service pour House_Config-service (Backend Spring Boot)
   house_config_service:
     build:
       context: ./House_Config-service
@@ -48,17 +44,19 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/House_Config
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_RABBITMQ_PORT=5672
       - SPRING_REDIS_HOST=redis
       - SPRING_REDIS_PORT=6379
     depends_on:
       - postgres
       - redis
+      - rabbitmq
     ports:
       - "8085:8085"
     networks:
       - app-network
 
-  # Service pour Notification-service (Backend Spring Boot)
   notification_service:
     build:
       context: ./Notification-service
@@ -74,7 +72,18 @@ services:
     networks:
       - app-network
 
-  # Service pour le frontend (React ou Vue.js)
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"  # Port AMQP
+      - "15672:15672"  # Interface de gestion
+    environment:
+      RABBITMQ_DEFAULT_USER: ing3
+      RABBITMQ_DEFAULT_PASS: paas
+    networks:  # Ajout au réseau Docker
+      - app-network
+
   frontend:
     build:
       context: ./House_front
