@@ -3,7 +3,7 @@ import paho.mqtt.client as mqtt
 # Configuration MQTT
 broker = 'localhost'
 port = 1883
-topic = 'mqtt/config-topic'
+topic = 'mqtt/config-topic/1/config'
 username = 'domotik'
 password = 'toto'
 

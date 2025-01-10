@@ -5,7 +5,7 @@
     import lombok.Data;
 
     @Entity
-    @Table(name = "Device")
+    @Table(name = "device")
     @Data
     public class Device {
 
