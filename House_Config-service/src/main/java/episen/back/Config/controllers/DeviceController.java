@@ -13,8 +13,6 @@ import java.util.List;
 @RequestMapping("/api/devices")
 public class DeviceController {
 
-
-
     @Autowired
     private DeviceService deviceService;
 

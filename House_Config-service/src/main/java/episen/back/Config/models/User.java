@@ -28,7 +28,7 @@ public class User {
     private String login;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user_id", cascade = CascadeType.ALL)
     private List<Device> devices;
 
     public User(String fullName, String emailAddress, String password, String login) {

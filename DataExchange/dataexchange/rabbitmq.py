@@ -14,13 +14,17 @@ def setup_channel(channel, exchange, queue, key):
     channel.queue_declare(queue=queue)
     channel.queue_bind(exchange=exchange, queue=queue, routing_key=key)
 
-def rabbitmq_consume(params : RtmqParams, mqtt : MqttParams):
+def rabbitmq_consume(params : RtmqParams, mqtt : MqttParams, connection):
     logger.info("Starting rabbit consumer")
     setup_channel(channel=params.channel, exchange=params.exchange, queue=params.queue, key=params.key)
     def callback(ch, method, properties, body):
         message = body.decode()
         logger.info(f"Consumed from RabbitMQ: {message}")
-        mqtt_producer(params=mqtt, message=message)
+        conf = read_message(message)
+        stopic, config = build_message(connection, mqtt.topic, conf)
+        logger.info(f"Topic: {stopic}  Config: {config}")
+        mqtt.topic = stopic
+        mqtt_producer(params=mqtt, message=config)
 
     params.channel.basic_consume(queue=params.queue, on_message_callback=callback, auto_ack=True)
     params.channel.start_consuming()

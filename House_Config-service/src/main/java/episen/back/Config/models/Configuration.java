@@ -4,7 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 @Entity
-@Table(name = "Configuration")
+@Table(name = "configuration")
 @Data
 public class Configuration {
 
@@ -15,7 +15,7 @@ public class Configuration {
     @Column(name = "config_name")
     private String configurationName;
 
-    @OneToOne(mappedBy = "configuration")
+    @OneToOne(mappedBy = "device_id")
     private Device device;
 
     @Column(name = "energy_saving")
