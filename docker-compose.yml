@@ -54,6 +54,18 @@ services:
       - ./CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
     command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
 
+  nginx:
+    image: nginx:latest
+    container_name: nginx-proxy
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - house_config_service
+      - notification_service
+      - frontend
+
   config-service:
     build:
       context: ./House_Config-service
@@ -83,7 +95,7 @@ services:
     depends_on:
       - redis
     ports:
-      - "8084:8084"
+      - "8083:8083"
 
   notification-manager:
     build:
