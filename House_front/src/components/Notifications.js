@@ -3,7 +3,6 @@ import { fetchNotifications } from '../constants/back';
 import { useNavigate } from 'react-router-dom';
 import '../styles/Notifications.css';
 
-
 const Notifications = () => {
     const [notifications, setNotifications] = useState([]);
     const userId = sessionStorage.getItem('userId');
@@ -15,11 +14,12 @@ const Notifications = () => {
                 console.warn('No user ID found in session');
                 return;
             }
-            console.log("User ID from session:", userId);  // Vérification de l'ID utilisateur
+            console.log("User ID from session:", userId);
 
             try {
                 const data = await fetchNotifications(userId);
-                console.log('Notifications from API:', data);  // Log des notifications
+                console.log('Raw Notifications from API:', data);
+
                 setNotifications(data);
             } catch (error) {
                 console.error('Failed to fetch notifications:', error);
@@ -35,9 +35,9 @@ const Notifications = () => {
 
             {notifications && notifications.length > 0 ? (
                 <ul className="notification-list">
-                    {notifications.map((notif, index) => (
+                    {notifications.map((message, index) => (
                         <li key={index} className="notification-item">
-                            <strong>{notif.message}</strong>
+                            <strong>{message}</strong>
                         </li>
                     ))}
                 </ul>
@@ -53,3 +53,4 @@ const Notifications = () => {
 };
 
 export default Notifications;
+

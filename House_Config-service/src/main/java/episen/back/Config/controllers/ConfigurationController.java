@@ -29,9 +29,10 @@ public class ConfigurationController {
     public ResponseEntity<?> addConfiguration(@PathVariable Long deviceId, @RequestBody Configuration configuration) {
         try {
             Configuration savedConfig = configurationService.addConfiguration(deviceId, configuration);
+            Long configId = savedConfig.getId();
             ObjectMapper objectMapper = new ObjectMapper();
-            String jsonConfig = objectMapper.writeValueAsString(savedConfig);
-            queueProducer.sendMessage(jsonConfig);
+            String jsonConfigId = objectMapper.writeValueAsString(configId);
+            queueProducer.sendMessage(jsonConfigId);
             return ResponseEntity.ok(savedConfig);
         } catch (RuntimeException e) {
             Map<String, String> errorResponse = new HashMap<>();
@@ -41,18 +42,24 @@ public class ConfigurationController {
             throw new RuntimeException(e);
         }
     }
-
     @PutMapping("/update/{deviceId}")
     public ResponseEntity<?> updateConfiguration(@PathVariable Long deviceId, @RequestBody Configuration configuration) {
         try {
             Configuration updatedConfig = configurationService.updateConfiguration(deviceId, configuration);
+            Long configId = updatedConfig.getId();
+            ObjectMapper objectMapper = new ObjectMapper();
+            String jsonConfigId = objectMapper.writeValueAsString(configId);
+            queueProducer.sendMessage(jsonConfigId);
             return ResponseEntity.ok(updatedConfig);
         } catch (RuntimeException e) {
             Map<String, String> errorResponse = new HashMap<>();
             errorResponse.put("error", e.getMessage());
             return ResponseEntity.badRequest().body(errorResponse);
+        } catch (JsonProcessingException e) {
+            throw new RuntimeException(e);
         }
     }
+
     @GetMapping("/all")
     public ResponseEntity<List<Configuration>> getAllConfigurations() {
         List<Configuration> configurations = configurationService.getAllConfigurations();

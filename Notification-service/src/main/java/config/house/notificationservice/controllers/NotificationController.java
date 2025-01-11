@@ -16,12 +16,12 @@ public class NotificationController {
     private NotificationService notificationService;
 
     @PostMapping("/add/{userId}")
-    public void createNotification(@PathVariable String userId, @RequestBody Notification notification) {
+    public void createNotification(@PathVariable String userId, @RequestBody String notification) {
         notificationService.saveNotification(userId, notification);
     }
 
     @GetMapping("/all/{userId}")
-    public List<Notification> getUserNotifications(@PathVariable String userId) {
+    public List<String> getUserNotifications(@PathVariable String userId) {
         return notificationService.getNotificationsForUser(userId);
     }
 

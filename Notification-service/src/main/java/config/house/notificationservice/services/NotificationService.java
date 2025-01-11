@@ -5,23 +5,24 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 @Service
 public class NotificationService {
     private static final String KEY_PREFIX = "notifications:user:";
 
+
     @Autowired
-    private RedisTemplate<String, Notification> redisTemplate;
+    private RedisTemplate<String, String> redisTemplate;
 
-
-    public void saveNotification(String userId, Notification notification) {
-        redisTemplate.opsForList().rightPush(KEY_PREFIX + userId, notification);
+    public void saveNotification(String userId, String message) {
+        redisTemplate.opsForList().rightPush(KEY_PREFIX + userId, message);
     }
 
-    public List<Notification> getNotificationsForUser(String userId) {
+    public List<String> getNotificationsForUser(String userId) {
         String key = KEY_PREFIX + userId;
-        List<Notification> notifications = redisTemplate.opsForList().range(key, 0, -1);
-        return notifications;
+        List<String> messages = redisTemplate.opsForList().range(key, 0, -1);
+        return messages != null ? messages : List.of();
     }
 
 

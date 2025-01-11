@@ -12,12 +12,12 @@ import config.house.notificationservice.models.Notification;
 public class RedisConfig {
 
     @Bean
-    public RedisTemplate<String, Notification> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
-        RedisTemplate<String, Notification> template = new RedisTemplate<>();
+    public RedisTemplate<String, String> redisTemplate(RedisConnectionFactory redisConnectionFactory) {
+        RedisTemplate<String, String> template = new RedisTemplate<>();
         template.setConnectionFactory(redisConnectionFactory);
 
         template.setKeySerializer(new StringRedisSerializer());
-        template.setValueSerializer(new GenericJackson2JsonRedisSerializer());
+        template.setValueSerializer(new StringRedisSerializer());
 
         return template;
     }
