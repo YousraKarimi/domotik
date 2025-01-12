@@ -9,3 +9,10 @@ services:
     depends_on:
       - config-service
       - notification-service
+    networks:
+      - paas-shared-network
+
+networks:
+  paas-shared-network:
+    driver: overlay
+    external: true

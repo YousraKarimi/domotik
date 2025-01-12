@@ -12,6 +12,8 @@ services:
       - ../IotService/log:/mosquitto/log
     environment:
       - MOSQUITTO_PASSWORD_FILE=/mosquitto/config/pwfile
+    networks:
+      - paas-shared-network
 
   queuing-service:
     image: rabbitmq:3.12-management-alpine
@@ -27,6 +29,8 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
+    networks:
+      - paas-shared-network
 
   notification-manager:
     image: riserdark/paas/notification-manager:latest
@@ -50,6 +54,8 @@ services:
       - redis
       - postgres
     command: [ "poetry", "run", "python", "main.py" ]
+    networks:
+      - paas-shared-network
 
   data-exchange:
     image: riserdark/paas/data-exchange:latest
@@ -83,3 +89,10 @@ services:
       - mongodb
       - postgres
     command: [ "poetry", "run", "python", "main.py" ]
+    networks:
+      - paas-shared-network
+
+networks:
+  paas-shared-network:
+    driver: overlay
+    external: true

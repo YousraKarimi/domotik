@@ -4,6 +4,8 @@ services:
     container_name: mongodb
     ports:
       - "27017:27017"
+    networks:
+      - paas-shared-network
 
   postgres:
     image: postgres:14-alpine
@@ -14,6 +16,8 @@ services:
       POSTGRES_DB: house_config
     ports:
       - "5432:5432"
+    networks:
+      - paas-shared-network
 
   redis:
     image: redis:latest
@@ -24,3 +28,13 @@ services:
       - redis_data:/data
       - ../CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
     command: [ "redis-server", "/usr/local/etc/redis/redis.conf" ]
+    networks:
+      - paas-shared-network
+
+volumes:
+  redis_data:
+
+networks:
+  paas-shared-network:
+    driver: overlay
+    external: true
