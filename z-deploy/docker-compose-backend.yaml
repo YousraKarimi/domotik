@@ -7,7 +7,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://192.168.25.4:5432/house_config
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=admin
-      - SPRING_RABBITMQ_HOST=rabbitmq
+      - SPRING_RABBITMQ_HOST=192.168.25.3
       - SPRING_RABBITMQ_PORT=5672
 
     ports:
