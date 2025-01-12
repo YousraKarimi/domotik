@@ -33,3 +33,4 @@ services:
 networks:
   paas-shared-network:
     driver: overlay
+    external: true
