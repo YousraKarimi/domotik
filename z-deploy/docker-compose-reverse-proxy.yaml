@@ -1,0 +1,11 @@
+services:
+  frontend:
+    image: riserdark/paas/house-front:latest
+    container_name: house_front
+    ports:
+      - "8080:80"
+    volumes:
+      - nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - config-service
+      - notification-service
