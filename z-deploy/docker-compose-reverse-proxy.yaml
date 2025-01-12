@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: riserdark/paas/house-front:latest
+    image: riserdark/paas:house-front
     container_name: house_front
     ports:
       - "8080:80"

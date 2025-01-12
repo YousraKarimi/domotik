@@ -33,7 +33,7 @@ services:
       - paas-shared-network
 
   notification-manager:
-    image: riserdark/paas/notification-manager:latest
+    image: riserdark/paas:notification-manager
     container_name: notification_manager
     environment:
       RABBITMQ_HOST: rabbitmq
@@ -56,7 +56,7 @@ services:
       - paas-shared-network
 
   data-exchange:
-    image: riserdark/paas/data-exchange:latest
+    image: riserdark/paas:data-exchange
     container_name: data_exchange
     environment:
       MQTT_BROKER: mosquitto

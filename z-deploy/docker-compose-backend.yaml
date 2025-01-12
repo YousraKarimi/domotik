@@ -9,22 +9,18 @@ services:
       - SPRING_DATASOURCE_PASSWORD=admin
       - SPRING_RABBITMQ_HOST=rabbitmq
       - SPRING_RABBITMQ_PORT=5672
-    depends_on:
-      - queuing-service
-      - postgres
+
     ports:
       - "8085:8085"
     networks:
       - paas-shared-network
 
   notification-service:
-    image: riserdark/paas/notification-service:latest
+    image: riserdark/paas:notification-service
     container_name: notification_service
     environment:
       - SPRING_DATA_REDIS_HOST=redis
       - SPRING_DATA_REDIS_PORT=6379
-    depends_on:
-      - redis
     ports:
       - "8083:8083"
     networks:
