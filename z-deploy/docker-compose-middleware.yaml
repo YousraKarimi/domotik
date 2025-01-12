@@ -51,8 +51,6 @@ services:
       POSTGRES_PORT: 5432
     depends_on:
       - queuing-service
-      - redis
-      - postgres
     command: [ "poetry", "run", "python", "main.py" ]
     networks:
       - paas-shared-network
@@ -86,8 +84,6 @@ services:
     depends_on:
       - queuing-service
       - iot-service
-      - mongodb
-      - postgres
     command: [ "poetry", "run", "python", "main.py" ]
     networks:
       - paas-shared-network
