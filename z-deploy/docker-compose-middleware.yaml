@@ -42,9 +42,9 @@ services:
       RABBITMQ_LOG_KEY: log_routing_key
       RABBITMQ_USER: ing3
       RABBITMQ_PASS: paas
-      REDIS_HOST: redis
+      REDIS_HOST: 192.168.25.4
       REDIS_PORT: 6379
-      POSTGRES_HOST: postgres
+      POSTGRES_HOST: 192.168.25.4
       POSTGRES_DB: house_config
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
@@ -74,9 +74,9 @@ services:
       RABBITMQ_LOG_KEY: log_routing_key
       RABBITMQ_USER: ing3
       RABBITMQ_PASS: paas
-      MONGODB_HOST: mongodb
+      MONGODB_HOST: 192.168.25.4
       MONGODB_PORT: 27017
-      POSTGRES_HOST: postgres
+      POSTGRES_HOST: 192.168.25.4
       POSTGRES_DB: house_config
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin

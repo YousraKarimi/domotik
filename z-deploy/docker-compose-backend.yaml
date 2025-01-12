@@ -4,7 +4,7 @@ services:
     image: riserdark/paas:house-config
     container_name: config_service
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/house_config
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://192.168.25.4:5432/house_config
       - SPRING_DATASOURCE_USERNAME=postgres
       - SPRING_DATASOURCE_PASSWORD=admin
       - SPRING_RABBITMQ_HOST=rabbitmq
@@ -19,7 +19,7 @@ services:
     image: riserdark/paas:notification-service
     container_name: notification_service
     environment:
-      - SPRING_DATA_REDIS_HOST=redis
+      - SPRING_DATA_REDIS_HOST=192.168.25.4
       - SPRING_DATA_REDIS_PORT=6379
     ports:
       - "8083:8083"
