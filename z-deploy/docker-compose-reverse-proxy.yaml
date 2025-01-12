@@ -9,6 +9,10 @@ services:
     networks:
       - paas-shared-network
 
+volumes:
+  nginx.conf:
+    external: false
+
 networks:
   paas-shared-network:
     driver: overlay
