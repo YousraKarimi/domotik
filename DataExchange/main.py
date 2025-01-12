@@ -50,7 +50,7 @@ def rtmq_consumer(rabbitmq_host, rabbitmq_conf_exchange, rabbitmq_conf_queue, ra
     
     mqtt_prod_params = MqttParams(broker=mqtt_broker, port=mqtt_port, topic=mqtt_prod_topic, user=mqtt_user, pwd=mqtt_pass)
     rtmq_cons_params = RtmqParams(channel=cons_channel, exchange=rabbitmq_conf_exchange, queue=rabbitmq_conf_queue, key=rabbitmq_conf_key)
-    rabbitmq_consume(params=rtmq_cons_params, mqtt=mqtt_prod_params, connecion=postgres_connection)
+    rabbitmq_consume(params=rtmq_cons_params, mqtt=mqtt_prod_params, connection=postgres_connection)
 
 def mqtt_consumer(mongodb_host, mongodb_port, mqtt_broker, mqtt_port, mqtt_cons_topic, mqtt_user, mqtt_pass, rabbitmq_host, rabbitmq_log_exchange, rabbitmq_log_queue, rabbitmq_log_key, rabbitmq_user, rabbitmq_pass):
     collection = setup_mongo(host=mongodb_host, port=mongodb_port)

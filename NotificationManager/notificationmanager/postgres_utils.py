@@ -10,9 +10,9 @@ def fetch_one(connection, query, params):
 
 def get_device_by_mac(connection, mac_address):
     query = """
-        SELECT d.name AS device_name, u.id AS user_id
+        SELECT d.device_name AS device_name, u.id AS user_id
         FROM device d
-        JOIN "user" u ON d.user_id = u.id
+        JOIN "users" u ON d.user_id = u.id
         WHERE d.id = %s;
     """
     params = (mac_address,)

@@ -42,8 +42,14 @@ public class House_ConfigApplication implements CommandLineRunner {
     @Override
     public void run(String... args) {
         logger.info("Starting application...");
-        loadData();
+        if (isNotLoaded()){
+            loadData();
+        }
         logger.info("Application finished processing.");
+    }
+
+    public boolean isNotLoaded(){
+        return userRepository.findByFullName("yousraKarimi").isEmpty();
     }
 
     public void loadData() {

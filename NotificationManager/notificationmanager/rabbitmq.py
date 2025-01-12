@@ -11,8 +11,8 @@ def setup_rabbitmq(host, credentials):
     return connection
 
 def setup_channel(channel, exchange, queue, key):
-    channel.exchange_declare(exchange=exchange, exchange_type='direct')
-    channel.queue_declare(queue=queue)
+    channel.exchange_declare(exchange=exchange, exchange_type='topic', durable=True, auto_delete=False)
+    channel.queue_declare(queue=queue, durable=True)
     channel.queue_bind(exchange=exchange, queue=queue, routing_key=key)
 
 def rabbitmq_consume(params : RtmqParams, redis, postgres):

@@ -15,20 +15,20 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "full_name")
+    @Column(name = "full_name", unique = true)
     private String fullName;
 
-    @Column(name = "email_address")
+    @Column(name = "email_address", unique = true)
     private String emailAddress;
 
     @Column(name = "password")
     private String password;
 
-    @Column(name = "login")
+    @Column(name = "login", unique = true)
     private String login;
 
     @JsonIgnore
-    @OneToMany(mappedBy = "user_id", cascade = CascadeType.ALL)
+    @OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
     private List<Device> devices;
 
     public User(String fullName, String emailAddress, String password, String login) {

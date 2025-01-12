@@ -15,7 +15,7 @@ public class Configuration {
     @Column(name = "config_name")
     private String configurationName;
 
-    @OneToOne(mappedBy = "device_id")
+    @OneToOne
     private Device device;
 
     @Column(name = "energy_saving")

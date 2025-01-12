@@ -54,18 +54,6 @@ services:
       - ./CacheServer/redis.conf:/usr/local/etc/redis/redis.conf
     command: ["redis-server", "/usr/local/etc/redis/redis.conf"]
 
-  nginx:
-    image: nginx:latest
-    container_name: nginx-proxy
-    ports:
-      - "80:80"
-    volumes:
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-    depends_on:
-      - house_config_service
-      - notification_service
-      - frontend
-
   config-service:
     build:
       context: ./House_Config-service
@@ -91,7 +79,6 @@ services:
     environment:
       - SPRING_DATA_REDIS_HOST=redis
       - SPRING_DATA_REDIS_PORT=6379
-      - SPRING_APPLICATION_NAME=notification-service
     depends_on:
       - redis
     ports:
@@ -119,6 +106,7 @@ services:
     depends_on:
       - queuing-service
       - redis
+      - postgres
     volumes:
       - ./NotificationManager:/app
     command: [ "poetry", "run", "python", "main.py" ]
@@ -159,6 +147,17 @@ services:
     volumes:
       - ./DataExchange:/app
     command: [ "poetry", "run", "python", "main.py" ]
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./House_front
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - config-service
+      - notification-service
 
 volumes:
   redis_data:

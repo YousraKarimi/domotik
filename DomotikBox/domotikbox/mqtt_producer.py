@@ -34,15 +34,13 @@ client.connect(broker, port, 60)
 
 # Envoie des messages au broker de façon répétée
 def publish_messages():
-    while True:
-        message = "Hello, MQTT!"
-        result = client.publish(topic, message)
-        status = result[0]
-        if status == 0:
-            print(f"Sent '{message}' to topic '{topic}'")
-        else:
-            print(f"Failed to send message to topic {topic}")
-        time.sleep(5)  # Envoyer un message toutes les 5 secondes
+    message = "{\"mac\" : 4, \"message\" : \"failed de look 2\"}"
+    result = client.publish(topic, message)
+    status = result[0]
+    if status == 0:
+        print(f"Sent '{message}' to topic '{topic}'")
+    else:
+        print(f"Failed to send message to topic {topic}")
 
 if __name__ == "__main__":
     # Boucle infinie pour publier des messages

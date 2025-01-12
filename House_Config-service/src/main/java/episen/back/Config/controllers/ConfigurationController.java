@@ -30,16 +30,13 @@ public class ConfigurationController {
         try {
             Configuration savedConfig = configurationService.addConfiguration(deviceId, configuration);
             Long configId = savedConfig.getId();
-            ObjectMapper objectMapper = new ObjectMapper();
-            String jsonConfigId = objectMapper.writeValueAsString(configId);
-            queueProducer.sendMessage(jsonConfigId);
+            String stringedId = String.valueOf(Math.toIntExact(configId));
+            queueProducer.sendMessage(stringedId);
             return ResponseEntity.ok(savedConfig);
         } catch (RuntimeException e) {
             Map<String, String> errorResponse = new HashMap<>();
             errorResponse.put("error", e.getMessage());
             return ResponseEntity.badRequest().body(errorResponse);
-        } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
         }
     }
     @PutMapping("/update/{deviceId}")

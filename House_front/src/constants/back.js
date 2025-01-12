@@ -3,11 +3,11 @@ export const LOCAL_HOST = 'http://localhost'
 export const LOCAL_HOST_NOTIF = 'http://localhost'
 
 
-export const GET_DEVICES_LOGIN =(login) => `${LOCAL_HOST}/api/devices/myDevices/${login}`;
-export const GET_CONFIG_LOGIN =(login) => `${LOCAL_HOST}/api/devices/configurations/${login}`;
-export const ADD_CONFIGURATION = (deviceId) => `${LOCAL_HOST}/api/configurations/add/${deviceId}`;
-export const UPDATE_CONFIGURATION = (deviceId) => `${LOCAL_HOST}/api/configurations/update/${deviceId}`;
-export const LOGIN_USER = LOCAL_HOST + '/api/users/loginUser';
+export const GET_DEVICES_LOGIN =(login) => `/api/devices/myDevices/${login}`;
+export const GET_CONFIG_LOGIN =(login) => `/api/devices/configurations/${login}`;
+export const ADD_CONFIGURATION = (deviceId) => `/api/configurations/add/${deviceId}`;
+export const UPDATE_CONFIGURATION = (deviceId) => `/api/configurations/update/${deviceId}`;
+export const LOGIN_USER = '/api/users/loginUser';
 
 
 export const loginUser = async (login, password) => {
@@ -42,7 +42,7 @@ export const loginUser = async (login, password) => {
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-export const GET_NOTIFICATIONS = (userId) => `${LOCAL_HOST_NOTIF}/notifications/all/${userId}`;
+export const GET_NOTIFICATIONS = (userId) => `/notifications/all/${userId}`;
 
 export const fetchNotifications = async (userId) => {
     try {

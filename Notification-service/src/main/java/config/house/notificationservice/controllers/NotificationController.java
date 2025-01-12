@@ -3,7 +3,6 @@ package config.house.notificationservice.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import config.house.notificationservice.models.Notification;
 import config.house.notificationservice.services.NotificationService;
 
 import java.util.List;
@@ -25,5 +24,14 @@ public class NotificationController {
         return notificationService.getNotificationsForUser(userId);
     }
 
+    @GetMapping("/redis/list/{key}")
+    public List<String> getListFromRedis(@PathVariable String key) {
+        return notificationService.getListFromRedis(key);
+    }
+
+    @GetMapping("/redis/value/{key}")
+    public String getValueFromRedis(@PathVariable String key) {
+        return notificationService.getValueFromRedis(key);
+    }
 }
 
