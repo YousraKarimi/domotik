@@ -1,7 +1,7 @@
 services:
 
   config-service:
-    image: riserdark/paas/house-config:latest
+    image: riserdark/paas:house-config
     container_name: config_service
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/house_config
