@@ -2,7 +2,7 @@ import paho.mqtt.client as mqtt
 import time
 
 # Configuration MQTT
-broker = 'localhost'
+broker = '172.31.253.58'
 port = 1883
 topic = 'mqtt/log-topic'
 username = 'domotik'
