@@ -1,40 +1,10 @@
 services:
-  iot-service:
-    image: eclipse-mosquitto
-    container_name: mosquitto
-    restart: always
-    ports:
-      - "1883:1883"
-      - "9001:9001"
-    volumes:
-      - ../IotService/config:/mosquitto/config
-      - ../IotService/data:/mosquitto/data
-      - ../IotService/log:/mosquitto/log
-    environment:
-      - MOSQUITTO_PASSWORD_FILE=/mosquitto/config/pwfile
-    networks:
-      - paas-shared-network
-
-  queuing-service:
-    image: rabbitmq:3.12-management-alpine
-    container_name: rabbitmq
-    volumes:
-      - ../QueuingService/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
-    environment:
-      - RABBITMQ_DEFAULT_USER=ing3
-      - RABBITMQ_DEFAULT_PASS=paas
-      - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq.conf
-    ports:
-      - "5672:5672"
-      - "15672:15672"
-    networks:
-      - paas-shared-network
 
   notification-manager:
     image: riserdark/paas:notification-manager
     container_name: notification_manager
     environment:
-      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_HOST: 192.168.25.3
       RABBITMQ_LOG_QUEUE: log_queue
       RABBITMQ_LOG_EXCHANGE: log_exchange
       RABBITMQ_LOG_KEY: log_routing_key
@@ -47,8 +17,6 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
       POSTGRES_PORT: 5432
-    depends_on:
-      - queuing-service
     command: [ "poetry", "run", "python", "main.py" ]
     networks:
       - paas-shared-network
@@ -57,13 +25,13 @@ services:
     image: riserdark/paas:data-exchange
     container_name: data_exchange
     environment:
-      MQTT_BROKER: mosquitto
+      MQTT_BROKER: 192.168.25.3
       MQTT_PORT: 1883
       MQTT_CONS_TOPIC: mqtt/log-topic
       MQTT_PROD_TOPIC: mqtt/config-topic
       MQTT_USER: exchange
       MQTT_PASS: toto
-      RABBITMQ_HOST: rabbitmq
+      RABBITMQ_HOST: 192.168.25.3
       RABBITMQ_CONF_EXCHANGE: config_exchange
       RABBITMQ_CONF_QUEUE: config_queue
       RABBITMQ_CONF_KEY: config_routing_key
@@ -79,9 +47,6 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: admin
       POSTGRES_PORT: 5432
-    depends_on:
-      - queuing-service
-      - iot-service
     command: [ "poetry", "run", "python", "main.py" ]
     networks:
       - paas-shared-network

@@ -1,0 +1,36 @@
+services:
+  iot-service:
+    image: eclipse-mosquitto
+    container_name: mosquitto
+    restart: always
+    ports:
+      - "1883:1883"
+      - "9001:9001"
+    volumes:
+      - ../IotService/config:/mosquitto/config
+      - ../IotService/data:/mosquitto/data
+      - ../IotService/log:/mosquitto/log
+    environment:
+      - MOSQUITTO_PASSWORD_FILE=/mosquitto/config/pwfile
+    networks:
+      - paas-shared-network
+
+  queuing-service:
+    image: rabbitmq:3.12-management-alpine
+    container_name: rabbitmq
+    volumes:
+      - ../QueuingService/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
+    environment:
+      - RABBITMQ_DEFAULT_USER=ing3
+      - RABBITMQ_DEFAULT_PASS=paas
+      - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq.conf
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - paas-shared-network
+
+networks:
+  paas-shared-network:
+    driver: overlay
+    external: true
