@@ -12,8 +12,6 @@ services:
       - ../IotService/log:/mosquitto/log
     environment:
       - MOSQUITTO_PASSWORD_FILE=/mosquitto/config/pwfile
-    networks:
-      - paas-shared-network
 
   queuing-service:
     image: rabbitmq:3.12-management-alpine
@@ -27,10 +25,3 @@ services:
     ports:
       - "5672:5672"
       - "15672:15672"
-    networks:
-      - paas-shared-network
-
-networks:
-  paas-shared-network:
-    driver: overlay
-    external: true
