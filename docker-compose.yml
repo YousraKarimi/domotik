@@ -18,12 +18,10 @@ services:
     container_name: rabbitmq
     volumes:
       - ./QueuingService/rabbitmq.conf:/etc/rabbitmq/rabbitmq.conf
-      - ./QueuingService/definitions.json:/etc/rabbitmq/definitions.json
     environment:
       - RABBITMQ_DEFAULT_USER=ing3
       - RABBITMQ_DEFAULT_PASS=paas
       - RABBITMQ_CONFIG_FILE=/etc/rabbitmq/rabbitmq.conf
-      - RABBITMQ_DEFINITIONS_FILE=/etc/rabbitmq/definitions.json
     ports:
       - "5672:5672"
       - "15672:15672"
