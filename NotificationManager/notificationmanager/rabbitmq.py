@@ -15,15 +15,14 @@ def setup_channel(channel, exchange, queue, key):
     channel.queue_declare(queue=queue, durable=True)
     channel.queue_bind(exchange=exchange, queue=queue, routing_key=key)
 
-def rabbitmq_consume(params : RtmqParams, redis, postgres):
-    logger.info("Starting rabbit consumer")
+def rabbit_log_consumer(params : RtmqParams, redis, postgres):
+    logger.info("Starting rabbit log consumer!")
     setup_channel(channel=params.channel, exchange=params.exchange, queue=params.queue, key=params.key)
     def callback(ch, method, properties, body):
         message = body.decode()
-        logger.info(f"Consumed from RabbitMQ: {message}")
+        logger.debug(f"Consumed from RabbitMQ: {message} .")
         mac, mess = read_log(message)
         user, error = build_error(connection=postgres, message=mess, mac=mac)
-        logger.info(f"User: {user} Error: {error}")
         write_to_redis(params=redis, key=user, value=error)
 
     params.channel.basic_consume(queue=params.queue, on_message_callback=callback, auto_ack=True)

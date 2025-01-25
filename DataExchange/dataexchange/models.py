@@ -1,8 +1,7 @@
 class MqttParams:
-    def __init__(self, broker, port, topic, user, pwd):
+    def __init__(self, broker, port, user, pwd):
         self.broker = broker
         self.port = port
-        self.topic = topic
         self.user = user
         self.pwd = pwd
 

@@ -4,7 +4,7 @@ import pika
 import psycopg2
 import redis
 from notificationmanager.models import RtmqParams, RedisParams
-from notificationmanager.rabbitmq import rabbitmq_consume, setup_rabbitmq
+from notificationmanager.rabbitmq import rabbit_log_consumer, setup_rabbitmq
 
 
 def parse_arguments():
@@ -33,8 +33,8 @@ def parse_arguments():
     return parser.parse_args()
 
 
-def rabbitmq_consumer(rabbitmq_host, rabbitmq_log_exchange, rabbitmq_log_queue, rabbitmq_log_key, rabbitmq_user,
-                      rabbitmq_pass, redis_host, redis_port):
+def consume_rabbit_log(rabbitmq_host, rabbitmq_log_exchange, rabbitmq_log_queue, rabbitmq_log_key, rabbitmq_user,
+                       rabbitmq_pass, redis_host, redis_port):
     credentials = pika.PlainCredentials(rabbitmq_user, rabbitmq_pass)
     connection = setup_rabbitmq(host=rabbitmq_host, credentials=credentials)
     cons_channel = connection.channel()
@@ -43,15 +43,15 @@ def rabbitmq_consumer(rabbitmq_host, rabbitmq_log_exchange, rabbitmq_log_queue, 
                                            port=args.postgres_port)
 
     redis_params = RedisParams(host=redis_host, port=redis_port)
-    rtmq_cons_params = RtmqParams(channel=cons_channel, exchange=rabbitmq_log_exchange, queue=rabbitmq_log_queue,
+    log_cons_params = RtmqParams(channel=cons_channel, exchange=rabbitmq_log_exchange, queue=rabbitmq_log_queue,
                                   key=rabbitmq_log_key)
-    rabbitmq_consume(params=rtmq_cons_params, redis=redis_params, postgres=postgres_connection)
+    rabbit_log_consumer(params=log_cons_params, redis=redis_params, postgres=postgres_connection)
 
 
 if __name__ == "__main__":
     args = parse_arguments()
 
-    threading.Thread(target=rabbitmq_consumer, args=(
+    threading.Thread(target=consume_rabbit_log, args=(
         args.rabbitmq_host, args.rabbitmq_log_exchange, args.rabbitmq_log_queue,
         args.rabbitmq_log_key, args.rabbitmq_user, args.rabbitmq_pass,
         args.redis_host, args.redis_port

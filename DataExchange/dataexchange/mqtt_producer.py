@@ -11,6 +11,6 @@ def mqtt_producer(params : MqttParams, message : str, topic : str):
     result = client.publish(topic, message)
     status = result[0]
     if status == 0:
-        logger.info(f"Produced to MQTT: {message} to topic {topic}")
+        logger.debug(f"Produced to MQTT topic: {topic} message: {message} .")
     else:
-        logger.error(f"Failed to send message to topic {topic}")
+        logger.error(f"Failed to send message to topic: {topic}")
