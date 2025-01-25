@@ -9,8 +9,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="House_Config-service" />
         <module name="models" />
-        <module name="Notification-service" />
         <module name="debt-management" />
+        <module name="NotificationService" />
         <module name="customer-account-management" />
         <module name="bike-management" />
       </profile>
@@ -27,7 +27,7 @@
       <module name="CyclingBack" options="-parameters" />
       <module name="House-App" options="-parameters" />
       <module name="House_Config-service" options="-parameters" />
-      <module name="Notification-service" options="-parameters" />
+      <module name="NotificationService" options="-parameters" />
       <module name="Security" options="-parameters" />
       <module name="bike-management" options="-parameters" />
       <module name="customer-account-management" options="-parameters" />
