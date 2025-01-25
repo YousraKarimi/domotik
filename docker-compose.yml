@@ -54,7 +54,7 @@ services:
 
   config-service:
     build:
-      context: ./House_Config-service
+      context: ./ConfigService
       dockerfile: Dockerfile
     container_name: config_service
     environment:
@@ -71,7 +71,7 @@ services:
 
   notification-service:
     build:
-      context: ./Notification-service
+      context: ./NotificationService
       dockerfile: Dockerfile
     container_name: notification_service
     environment:
@@ -149,7 +149,7 @@ services:
   frontend:
     container_name: frontend
     build:
-      context: ./House_front
+      context: ./DomotikFront
       dockerfile: Dockerfile
     ports:
       - "8080:80"
