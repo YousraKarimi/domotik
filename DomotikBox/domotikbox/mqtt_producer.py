@@ -1,25 +1,23 @@
-import paho.mqtt.client as mqtt
-import time
+from time import sleep
 
-# Configuration MQTT
-broker = '172.31.253.58'
+import paho.mqtt.client as mqtt
+from datetime import datetime
+
+broker = 'localhost'
 port = 1883
 topic = 'mqtt/log-topic'
 username = 'domotik'
 password = 'toto'
 
-# Callback lorsque la connexion au broker est établie
 def on_connect(client, userdata, flags, rc):
     if rc == 0:
         print("Connected to MQTT Broker!")
     else:
         print(f"Failed to connect, return code {rc}")
 
-# Callback lorsque le message est publié
 def on_publish(client, userdata, mid):
     print(f"Message published with mid {mid}")
 
-# Crée une nouvelle instance de client
 client = mqtt.Client()
 
 # Configurer les informations d'authentification
@@ -32,18 +30,22 @@ client.on_publish = on_publish
 # Se connecter au broker
 client.connect(broker, port, 60)
 
+maintenant = datetime.now()
+date_formated = maintenant.strftime("%d-%m-%Y %H:%M:%S")
+
 # Envoie des messages au broker de façon répétée
 def publish_messages():
-    message = "{\"mac\" : 4, \"message\" : \"failed de look 2\"}"
-    result = client.publish(topic, message)
-    status = result[0]
-    if status == 0:
-        print(f"Sent '{message}' to topic '{topic}'")
-    else:
-        print(f"Failed to send message to topic {topic}")
+    while True:
+        message = f'{{"mac" : 4, "message" : "{date_formated} It is very hot here!!!"}}'
+        result = client.publish(topic, message)
+        status = result[0]
+        if status == 0:
+            print(f"Sent '{message}' to topic '{topic}'")
+        else:
+            print(f"Failed to send message to topic {topic}")
+        sleep(20)
 
 if __name__ == "__main__":
-    # Boucle infinie pour publier des messages
     client.loop_start()
     try:
         publish_messages()

@@ -1,4 +1,5 @@
 import argparse
+import os
 import threading
 import pika
 import psycopg2
@@ -11,24 +12,24 @@ def parse_arguments():
     parser = argparse.ArgumentParser(description="Configure RabbitMQ, Redis, and Postgres parameters.")
 
     # RabbitMQ arguments
-    parser.add_argument('--rabbitmq-host', default='rabbitmq', help='RabbitMQ host')
-    parser.add_argument('--rabbitmq-log-queue', default='log_queue', help='RabbitMQ log queue')
-    parser.add_argument('--rabbitmq-log-exchange', default='log_exchange', help='RabbitMQ log exchange')
-    parser.add_argument('--rabbitmq-log-key', default='log_routing_key', help='RabbitMQ log routing key')
-    parser.add_argument('--rabbitmq-user', default='ing3', help='RabbitMQ user')
-    parser.add_argument('--rabbitmq-pass', default='paas', help='RabbitMQ password')
+    parser.add_argument('--rabbitmq-host', default=os.getenv('RABBITMQ_HOST', 'rabbitmq'), help='RabbitMQ host')
+    parser.add_argument('--rabbitmq-log-queue', default=os.getenv('RABBITMQ_LOG_QUEUE', 'log_queue'), help='RabbitMQ log queue')
+    parser.add_argument('--rabbitmq-log-exchange', default=os.getenv('RABBITMQ_LOG_EXCHANGE', 'log_exchange'), help='RabbitMQ log exchange')
+    parser.add_argument('--rabbitmq-log-key', default=os.getenv('RABBITMQ_LOG_KEY', 'log_routing_key'), help='RabbitMQ log routing key')
+    parser.add_argument('--rabbitmq-user', default=os.getenv('RABBITMQ_USER', 'ing3'), help='RabbitMQ user')
+    parser.add_argument('--rabbitmq-pass', default=os.getenv('RABBITMQ_PASS', 'paas'), help='RabbitMQ password')
 
     # Redis arguments
-    parser.add_argument('--redis-host', default='redis', help='Redis host')
-    parser.add_argument('--redis-port', type=int, default=6379, help='Redis port')
-    parser.add_argument('--redis-pass', default='', help='Redis password')
+    parser.add_argument('--redis-host', default=os.getenv('REDIS_HOST', 'redis'), help='Redis host')
+    parser.add_argument('--redis-port', type=int, default=int(os.getenv('REDIS_PORT', 6379)), help='Redis port')
+    parser.add_argument('--redis-pass', default=os.getenv('REDIS_PASS', ''), help='Redis password')
 
     # Postgres arguments (if needed in future)
-    parser.add_argument('--postgres-host', default='postgres', help='Postgres host')
-    parser.add_argument('--postgres-db', default='house_config', help='Postgres database')
-    parser.add_argument('--postgres-user', default='postgres', help='Postgres user')
-    parser.add_argument('--postgres-pass', default='admin', help='Postgres password')
-    parser.add_argument('--postgres-port', type=int, default=5432, help='Postgres port')
+    parser.add_argument('--postgres-host', default=os.getenv('POSTGRES_HOST', 'postgres'), help='Postgres host')
+    parser.add_argument('--postgres-db', default=os.getenv('POSTGRES_DB', 'house_config'), help='Postgres database')
+    parser.add_argument('--postgres-user', default=os.getenv('POSTGRES_USER', 'postgres'), help='Postgres user')
+    parser.add_argument('--postgres-pass', default=os.getenv('POSTGRES_PASSWORD', 'admin'), help='Postgres password')
+    parser.add_argument('--postgres-port', type=int, default=int(os.getenv('POSTGRES_PORT', 5432)), help='Postgres port')
 
     return parser.parse_args()
 
