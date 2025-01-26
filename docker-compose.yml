@@ -32,16 +32,6 @@ services:
     ports:
       - "27017:27017"
 
-  postgres:
-    image: postgres:14-alpine
-    container_name: postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: house_config
-    ports:
-      - "5432:5432"
-
   redis:
     image: redis:latest
     container_name: redis
@@ -58,14 +48,13 @@ services:
       dockerfile: Dockerfile
     container_name: config_service
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgres:5432/house_config
-      - SPRING_DATASOURCE_USERNAME=postgres
-      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://34.163.9.144:5432/domotik
+      - SPRING_DATASOURCE_USERNAME=domotik
+      - SPRING_DATASOURCE_PASSWORD=episen2025ncc
       - SPRING_RABBITMQ_HOST=rabbitmq
       - SPRING_RABBITMQ_PORT=5672
     depends_on:
       - queuing-service
-      - postgres
     ports:
       - "8085:8085"
 
@@ -96,15 +85,14 @@ services:
       RABBITMQ_PASS: paas
       REDIS_HOST: redis
       REDIS_PORT: 6379
-      POSTGRES_HOST: postgres
-      POSTGRES_DB: house_config
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
+      POSTGRES_HOST: 34.163.9.144
+      POSTGRES_DB: domotik
+      POSTGRES_USER: domotik
+      POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
     depends_on:
       - queuing-service
       - redis
-      - postgres
     volumes:
       - ./NotificationManager:/app
     command: [ "poetry", "run", "python", "main.py" ]
@@ -132,16 +120,15 @@ services:
       RABBITMQ_PASS: paas
       MONGODB_HOST: mongodb
       MONGODB_PORT: 27017
-      POSTGRES_HOST: postgres
-      POSTGRES_DB: house_config
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
+      POSTGRES_HOST: 34.163.9.144
+      POSTGRES_DB: domotik
+      POSTGRES_USER: domotik
+      POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
     depends_on:
       - queuing-service
       - iot-service
       - mongodb
-      - postgres
     volumes:
       - ./DataExchange:/app
     command: [ "poetry", "run", "python", "main.py" ]
