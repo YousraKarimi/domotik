@@ -2,7 +2,7 @@ services:
 
   config-service:
     build:
-      context: ./ConfigService
+      context: ../ConfigService
       dockerfile: Dockerfile
     container_name: config_service
     environment:
