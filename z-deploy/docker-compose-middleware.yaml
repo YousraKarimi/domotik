@@ -12,10 +12,10 @@ services:
       RABBITMQ_PASS: paas
       REDIS_HOST: 192.168.25.4
       REDIS_PORT: 6379
-      POSTGRES_HOST: 192.168.25.4
-      POSTGRES_DB: house_config
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
+      POSTGRES_HOST: 34.163.9.144
+      POSTGRES_DB: domotik
+      POSTGRES_USER: domotik
+      POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
     command: [ "poetry", "run", "python", "main.py" ]
 
@@ -40,9 +40,9 @@ services:
       RABBITMQ_PASS: paas
       MONGODB_HOST: 192.168.25.4
       MONGODB_PORT: 27017
-      POSTGRES_HOST: 192.168.25.4
-      POSTGRES_DB: house_config
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
+      POSTGRES_HOST: 34.163.9.144
+      POSTGRES_DB: domotik
+      POSTGRES_USER: domotik
+      POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
     command: [ "poetry", "run", "python", "main.py" ]

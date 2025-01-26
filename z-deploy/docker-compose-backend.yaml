@@ -4,9 +4,9 @@ services:
     image: riserdark/paas:house-config
     container_name: config_service
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://192.168.25.4:5432/house_config
-      - SPRING_DATASOURCE_USERNAME=postgres
-      - SPRING_DATASOURCE_PASSWORD=admin
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://34.163.9.144:5432/domotik
+      - SPRING_DATASOURCE_USERNAME=domotik
+      - SPRING_DATASOURCE_PASSWORD=episen2025ncc
       - SPRING_RABBITMQ_HOST=192.168.25.3
       - SPRING_RABBITMQ_PORT=5672
 

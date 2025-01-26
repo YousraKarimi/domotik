@@ -7,18 +7,6 @@ services:
     networks:
       - paas-shared-network
 
-  postgres:
-    image: postgres:14-alpine
-    container_name: postgres
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: admin
-      POSTGRES_DB: house_config
-    ports:
-      - "5432:5432"
-    networks:
-      - paas-shared-network
-
   redis:
     image: redis:latest
     container_name: redis
