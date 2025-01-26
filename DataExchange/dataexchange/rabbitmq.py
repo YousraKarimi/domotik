@@ -17,7 +17,6 @@ def setup_channel(channel, exchange, queue, key):
 
 def rabbit_config_consumer(rabbit_params : RtmqParams, mqtt_params : MqttParams, mqtt_topic, connection):
     logger.info("Starting rabbit config consumer!")
-    setup_channel(channel=rabbit_params.channel, exchange=rabbit_params.exchange, queue=rabbit_params.queue, key=rabbit_params.key)
     def callback(ch, method, properties, body):
         message = body.decode()
         logger.debug(f"Consumed from RabbitMQ: {message} .")

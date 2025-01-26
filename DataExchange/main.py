@@ -6,7 +6,8 @@ import pika
 from dataexchange.models import MqttParams, RtmqParams
 from dataexchange.mongo import setup_mongo
 from dataexchange.mqtt import mqtt_log_consumer
-from dataexchange.rabbitmq import rabbit_config_consumer, setup_rabbitmq
+from dataexchange.rabbitmq import rabbit_config_consumer, setup_rabbitmq, setup_channel
+
 
 def parse_arguments():
     parser = argparse.ArgumentParser(description="Configure Mosquitto, RabbitMQ, and MongoDB parameters.")
@@ -54,10 +55,14 @@ if __name__ == "__main__":
     args = parse_arguments()
 
     rabbit_credentials = pika.PlainCredentials(args.rabbitmq_user, args.rabbitmq_pass)
+
     rabbit_cons_connection = setup_rabbitmq(host=args.rabbitmq_host, credentials=rabbit_credentials)
     config_cons_channel = rabbit_cons_connection.channel()
+    setup_channel(channel=config_cons_channel, exchange=args.rabbitmq_conf_exchange, queue=args.rabbitmq_conf_queue, key=args.rabbitmq_conf_key)
+
     rabbit_prod_connection = setup_rabbitmq(host=args.rabbitmq_host, credentials=rabbit_credentials)
     log_prod_channel = rabbit_prod_connection.channel()
+    setup_channel(channel=log_prod_channel, exchange=args.rabbitmq_log_exchange, queue=args.rabbitmq_log_queue, key=args.rabbitmq_log_key)
 
     mqtt_params = MqttParams(broker=args.mqtt_broker, port=args.mqtt_port, user=args.mqtt_user, pwd=args.mqtt_pass)
 
