@@ -43,12 +43,10 @@ def parse_arguments():
     return parser.parse_args()
 
 def consume_rabbit_config(rabbitmq_conf_exchange, rabbitmq_conf_queue, rabbitmq_conf_key, mqtt_prod_topic):
-    config_cons_channel = rabbit_connection.channel()
     rabbit_config_params = RtmqParams(channel=config_cons_channel, exchange=rabbitmq_conf_exchange, queue=rabbitmq_conf_queue, key=rabbitmq_conf_key)
     rabbit_config_consumer(rabbit_params=rabbit_config_params, mqtt_params=mqtt_params, mqtt_topic=mqtt_prod_topic, connection=postgres_connection)
 
-def consume_mqtt_logs(mongo_collection, mqtt_cons_topic, rabbitmq_log_exchange, rabbitmq_log_queue, rabbitmq_log_key):
-    log_prod_channel = rabbit_connection.channel()
+def consume_mqtt_logs(mqtt_cons_topic, rabbitmq_log_exchange, rabbitmq_log_queue, rabbitmq_log_key):
     rabbit_log_params = RtmqParams(channel=log_prod_channel, exchange=rabbitmq_log_exchange, queue=rabbitmq_log_queue, key=rabbitmq_log_key)
     mqtt_log_consumer(mqtt_params=mqtt_params, rabbit_params=rabbit_log_params, mqtt_topic=mqtt_cons_topic, collection=mongo_collection)
 
@@ -57,21 +55,20 @@ if __name__ == "__main__":
 
     rabbit_credentials = pika.PlainCredentials(args.rabbitmq_user, args.rabbitmq_pass)
     rabbit_connection = setup_rabbitmq(host=args.rabbitmq_host, credentials=rabbit_credentials)
+    config_cons_channel = rabbit_connection.channel()
+    log_prod_channel = rabbit_connection.channel()
 
     mqtt_params = MqttParams(broker=args.mqtt_broker, port=args.mqtt_port, user=args.mqtt_user, pwd=args.mqtt_pass)
 
     postgres_connection = psycopg2.connect(dbname=args.postgres_db, user=args.postgres_user,
                                            password=args.postgres_pass, host=args.postgres_host,
                                            port=args.postgres_port)
-    mongodb_collection = setup_mongo(host=args.mongodb_host, port=args.mongodb_port)
+    mongo_collection = setup_mongo(host=args.mongodb_host, port=args.mongodb_port)
 
-    threading.Thread(target=consume_rabbit_config, args=(
-        args.rabbitmq_conf_exchange, args.rabbitmq_conf_queue,
-        args.rabbitmq_conf_key, args.mqtt_broker, args.mqtt_port, args.mqtt_prod_topic,
-    )).start()
+    threading.Thread(target=consume_rabbit_config,
+                     args=(args.rabbitmq_conf_exchange, args.rabbitmq_conf_queue, args.rabbitmq_conf_key, args.mqtt_prod_topic)
+                     ).start()
 
-    threading.Thread(target=consume_mqtt_logs, args=(
-        mongodb_collection,
-        args.mqtt_cons_topic,
-        args.rabbitmq_log_exchange, args.rabbitmq_log_queue, args.rabbitmq_log_key
-    )).start()
+    threading.Thread(target=consume_mqtt_logs,
+                     args=(args.mqtt_cons_topic, args.rabbitmq_log_exchange, args.rabbitmq_log_queue, args.rabbitmq_log_key)
+                     ).start()
