@@ -3,7 +3,7 @@ from time import sleep
 import paho.mqtt.client as mqtt
 from datetime import datetime
 
-broker = 'localhost'
+broker = '172.31.249.41'
 port = 1883
 topic = 'mqtt/log-topic'
 username = 'domotik'

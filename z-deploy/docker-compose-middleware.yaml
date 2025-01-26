@@ -1,7 +1,9 @@
 services:
 
   notification-manager:
-    image: riserdark/paas:notification-manager
+    build:
+      context: ../NotificationManager
+      dockerfile: Dockerfile
     container_name: notification_manager
     environment:
       RABBITMQ_HOST: 192.168.25.3
@@ -17,10 +19,14 @@ services:
       POSTGRES_USER: domotik
       POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
+    volumes:
+      - ../NotificationManager:/app
     command: [ "poetry", "run", "python", "main.py" ]
 
   data-exchange:
-    image: riserdark/paas:data-exchange
+    build:
+      context: ../DataExchange
+      dockerfile: Dockerfile
     container_name: data_exchange
     environment:
       MQTT_BROKER: 192.168.25.3
@@ -45,4 +51,6 @@ services:
       POSTGRES_USER: domotik
       POSTGRES_PASSWORD: episen2025ncc
       POSTGRES_PORT: 5432
+    volumes:
+      - ../DataExchange:/app
     command: [ "poetry", "run", "python", "main.py" ]

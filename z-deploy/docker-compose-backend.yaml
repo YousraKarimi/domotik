@@ -1,7 +1,9 @@
 services:
 
   config-service:
-    image: riserdark/paas:house-config
+    build:
+      context: ./ConfigService
+      dockerfile: Dockerfile
     container_name: config_service
     environment:
       - SPRING_DATASOURCE_URL=jdbc:postgresql://34.163.9.144:5432/domotik
@@ -16,7 +18,9 @@ services:
       - paas-shared-network
 
   notification-service:
-    image: riserdark/paas:notification-service
+    build:
+      context: ../NotificationService
+      dockerfile: Dockerfile
     container_name: notification_service
     environment:
       - SPRING_DATA_REDIS_HOST=192.168.25.4
