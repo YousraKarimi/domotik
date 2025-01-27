@@ -21,7 +21,7 @@ public class NotificationController {
 
     @GetMapping("/all/{userId}")
     public List<String> getUserNotifications(@PathVariable String userId) {
-        return notificationService.getNotificationsForUser(userId);
+        return notificationService.getAndDeleteNotificationsForUser(userId);
     }
 
     @GetMapping("/redis/list/{key}")

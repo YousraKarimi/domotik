@@ -38,7 +38,12 @@ public class NotificationService {
         return redisTemplate.opsForList().range(key, 0, -1);  // Récupère toute la liste
     }
 
-    // Lire une valeur d'une clé simple
+    public List<String> getAndDeleteNotificationsForUser(String userId) {
+        String key = userId;
+        List<String> notifications = redisTemplate.opsForList().range(key, 0, -1);
+        redisTemplate.delete(key);
+        return notifications;
+    }
     public String getValueFromRedis(String key) {
         return redisTemplate.opsForValue().get(key);
     }
