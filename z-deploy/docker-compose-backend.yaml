@@ -14,8 +14,6 @@ services:
 
     ports:
       - "8085:8085"
-    networks:
-      - paas-shared-network
 
   notification-service:
     build:
@@ -27,10 +25,3 @@ services:
       - SPRING_DATA_REDIS_PORT=6379
     ports:
       - "8083:8083"
-    networks:
-      - paas-shared-network
-
-networks:
-  paas-shared-network:
-    driver: overlay
-    external: true
